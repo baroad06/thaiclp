@@ -1,0 +1,48 @@
+[
+    {
+        "name": "ลูกล้อเฟอร์นิเจอร์ขนาด 1.5 นิ้ว",
+        "foldername": "furniture-wheel-15",
+        [
+            {"id": "CAY11021 CAY12021", "image": "1.jpg"},
+            {"id": "CAX11021 CAX12021", "image": "2.jpg"},
+            {"id": "CAY11401 CAY12401", "image": "3.jpg"},
+            {"id": "CAY11701 CAY12701", "image": "4.jpg"},
+            {"id": "CAY11713 CAY13713", "image": "5.jpg"},
+            {"id": "TAY11021 TAY12021", "image": "6.jpg"},
+            {"id": "TAX11021 TAX12021", "image": "7.jpg"},
+            {"id": "TAY11401 TAY12401", "image": "8.jpg"},
+            {"id": "TAY11701 TAY12701", "image": "9.jpg"},
+            {"id": "TAY11713 TAY13713", "image": "10.jpg"}
+        ]
+    },
+    {
+        "name": "ล้อเหล็ก",
+        "foldername": "iron-wheel",
+        [
+            {"id": "TAM11550 TAM21550 TAM31610 TAM41620 TAM51640", "image": "1.jpg"},
+            {"id": "TAM11040 TAM21040 TAM21060 TAM31100 TAM41100", "image": "2.jpg"},
+            {"id": "CAM11040 CAM21040 CAM21060 CAM31100 CAM41100", "image": "3.jpg"},
+            {"id": "CAM11550 CAM21550 CAM31610 CAM41620 CAM51640", "image": "4.jpg"}
+        ]
+    },
+    {
+        "name": "ลูกล้อเฟอร์นิเจอร์ขนาด 2 นิ้ว",
+        "foldername": "furniture-wheel-2",
+        [
+            {"id": "CAX21021 CAX22021", "image": "1.jpg"},
+            {"id": "CAX21023 CAX22023", "image": "2.jpg"},
+            {"id": "CAY21501 CAY22501", "image": "3.jpg"},
+            {"id": "CAZ21511 CAZ22511", "image": "4.jpg"},
+            {"id": "CAZ23511", "image": "5.jpg"},
+            {"id": "CAZ21531", "image": "6.jpg"},
+            {"id": "CAZ21723 CAZ21724", "image": "7.jpg"},
+            {"id": "TAX21021 TAX22021", "image": "8.jpg"},
+            {"id": "TAX21023 TAX22023", "image": "9.jpg"},
+            {"id": "TAY21501 TAY22501", "image": "10.jpg"},
+            {"id": "TAZ21511 TAZ22511", "image": "11.jpg"},
+            {"id": "TAZ23511", "image": "12.jpg"},
+            {"id": "TAY21531", "image": "13.jpg"},
+            {"id": "TAY21723 TAY21724", "image": "14.jpg"}
+        ]
+    }
+]

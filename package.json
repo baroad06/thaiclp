@@ -1,0 +1,21 @@
+{
+  "name": "thaictplas",
+  "version": "1.0.0",
+  "description": "thai chonlatharn plas company limited",
+  "main": "index.js",
+  "scripts": {
+    "test": "thaictplas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nutmos/thaictplas"
+  },
+  "keywords": [
+    "thaictplas"
+  ],
+  "author": "nutmos",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7"
+  }
+}

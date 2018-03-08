@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/aboutus.css">
+    <link rel="stylesheet" href="/css/essential.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <title><%= productcat.name %></title>
+</head>
+<body>
+    <%- include ../partials/navbar.ejs %>
+    <%- include('../partials/cover.ejs', {link: '/images/aboutus/cover.jpg'}) %>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm-9">
+                <h1 style="text-align: center">
+                    <%= productcat.name %>
+                </h1>
+                <% for (var i = 0; i < productcat.data.length/2; i++) { %>
+                    <div class="row">
+                        <div class="col-md">
+                            <img class="img-responsive img-article-bottom" src=<%= "/images/all-product/"+productcat.foldername+"/"+productcat.data[i*2].image %> >
+                            <div style="text-align: center"><%= productcat.data[i*2].id %><br></div>
+                        </div>
+                        <div class="col-md">
+                            <% if ((i*2+1) < productcat.data.length) { %>
+                            <img class="img-responsive img-article-bottom" src=<%= "/images/all-product/"+productcat.foldername+"/"+productcat.data[i*2+1].image %> >
+                            <div style="text-align: center"><%= productcat.data[i*2+1].id %><BR></DIV>
+                            <% } %>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+    </div>
+    <%- include ../partials/footer.ejs %>
+</body>
+</html>
