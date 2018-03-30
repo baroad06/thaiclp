@@ -1,0 +1,17 @@
+{
+    "name": "ป้ายเตียงเหล็ก",
+    "url": "metal-bed-sign",
+    "image": [
+        {"id": "TBM61", "image": "1.png"},
+        {"id": "TBM63", "image": "2.png"},
+        {"id": "TBM67", "image": "3.png"},
+        {"id": "", "image": "4.png"},
+        {"id": "TBM60", "image": "5.png"},
+        {"id": "TBM65", "image": "6.png"},
+        {"id": "TBM62", "image": "7.png"},
+        {"id": "", "image": "11.png"}
+    ],
+    "pdf": [
+        "C16.pdf"
+    ]
+}

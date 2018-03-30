@@ -1,0 +1,15 @@
+{
+    "name": "ลูกล้อ",
+    "image": "cover.jpg",
+    "url": "casters",
+    "subfolder": [
+        "caster-1-inch",
+        "caster-2-inch",
+        "wheel-krata",
+        "flat-casters-60mm",
+        "nylon-casters",
+        "ball-casters",
+        "caster-with-rigid-platform",
+        "rubber-casters"
+    ]
+}

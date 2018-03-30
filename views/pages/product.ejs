@@ -27,7 +27,7 @@
                     <img class="img-responsive img-article-bottom" src="/images/product/extrusion.jpg" alt="">
                     <div style="text-align: center">งานรีด (Extrusion)</div>
                 </div>-->
-                <% for (var i = 0; i < product.length/2; i++) { %>
+                <!---<% for (var i = 0; i < product.length/2; i++) { %>
                     <div class="row">
                         <div class="col-md">
                             <a href=<%= "/product/"+product[2*i].foldername %> ><img class="img-responsive img-article-bottom" src=<%= "/images/all-product/"+product[2*i].foldername+"/"+product[2*i].data[0].image %> ></a>
@@ -40,7 +40,24 @@
                             <% } %>
                         </div>
                     </div>
+                <% } %>--->
+                <% var subfolder = product.subfolder %>
+                <% for (var i = 0; i < subfolder.length/2; i++) { %>
+                    <div class="row">
+                        <div class="col-md">
+                            <a href=<%= "/product/"+subfolder[2*i]["url"] %> ><img class="img-responsive img-article-bottom" src=<%= "/images/catalog/"+subfolder[i*2]["url"]+"/cover.jpg" %> ></a>
+                            <a href=<%= "/product/"+subfolder[2*i]["url"] %> ><div style="text-align: center"><%= subfolder[2*i]["name"] %></a><br></div>
+                        </div>
+                        <div class="col-md">
+                            <% if ((2*i)+1 < subfolder.length) { %>
+                            <a href=<%= "/product/"+subfolder[2*i+1]["url"] %> ><img class="img-responsive img-article-bottom" src=<%= "/images/catalog/"+subfolder[i*2+1]["url"]+"/cover.jpg" %> ></a>
+                            <a href=<%= "/product/"+subfolder[2*i+1]["url"] %> ><div style="text-align: center"><%= subfolder[2*i+1]["name"] %></a><br></div>
+                            <% } %>
+                        </div>
+                    </div>
                 <% } %>
+
+                <embed style="display: block;margin-left: auto; margin-right: auto; margin-top: 2em" src= "/images/catalog/2-caster-bearings/CTPCatalogueP12_new.pdf" width="595" height="841">
             </div>
             <div class="col-md"></div>
         </div>

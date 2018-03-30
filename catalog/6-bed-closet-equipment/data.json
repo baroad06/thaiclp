@@ -1,0 +1,23 @@
+{
+    "name": "อุปกรณ์เตียง-ตู้",
+    "image": "cover.jpg",
+    "url": "6-bed-closet-equipment",
+    "image": [
+        {"id": "", "image": "IMG_6404.JPG"},
+        {"id": "", "image": "IMG_6405.JPG"},
+        {"id": "", "image": "IMG_6409.JPG"},
+        {"id": "", "image": "IMG_6411.JPG"},
+        {"id": "", "image": "IMG_6412.JPG"},
+        {"id": "", "image": "IMG_6612.JPG"},
+        {"id": "", "image": "IMG_6613.JPG"}
+    ],
+    "pdf": [
+        "CTPCatalogueP7.pdf",
+        "CTPCatalogueP8.pdf"
+    ],
+    "subfolder": [
+        "bed-leg",
+        "metal-screw",
+        "metal-bed-sign"
+    ]
+}

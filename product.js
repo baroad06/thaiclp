@@ -3,14 +3,28 @@ var app = express()
 var path = require('path')
 var http = require('http')
 var router = express.Router();
+var fs = require('fs')
 
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.set('view engine', 'ejs')
-
-app.get('/', function(req, res) {
-    res.render('product.ejs');
+router.use(function timeLog(req, res, next) {
+    console.log('Time: ', Date.now())
+    next()
 })
 
-app.listen(3000)
+router.get('/', function(req, res) {
+    //var all_product = JSON.parse(fs.readFileSync('all-products.json', 'utf8'));
+    var all_product = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+    //res.send("test")
+    res.render('pages/product.ejs', {product: all_product});
+})
+
+router.get('/:product_cat', function(req,res) {
+    var all_product = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+    for (var product in all_product.subfolder) {
+        if (all_product.subfolder[product].url === req.params.product_cat) {
+            console.log(all_product.subfolder[product].url)
+            res.render('pages/product-by-cat.ejs', {productcat: all_product.subfolder[product]});
+        }
+    }
+})
+
 module.exports = router;

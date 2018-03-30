@@ -1,0 +1,19 @@
+{
+    "name": "ขาเตียง",
+    "url": "leg",
+    "image": [
+        {"id": "TBL4096 TBL4196 TBL4296 TBL4396", "image": "01.jpg"},
+        {"id": "TBL413", "image": "02.jpg"},
+        {"id": "TBL2096 TBL2196 TBL2296 TBL2396 TBL2496 TBL2596", "image": "03.jpg"},
+        {"id": "TBL7096", "image": "04.jpg"},
+        {"id": "", "image": "05.jpg"},
+        {"id": "", "image": "06.jpg"},
+        {"id": "", "image": "07.jpg"},
+    ],
+    "pdf": [
+        "leg-1.pdf",
+        "leg-2.pdf",
+        "leg-3.pdf",
+        "plastic-leg.pdf"
+    ]
+}

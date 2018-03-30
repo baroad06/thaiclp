@@ -1,0 +1,25 @@
+{
+    "name": "ปุ่มยาง",
+    "image": "cover.jpg",
+    "url": "5-rubber-button",
+    "image": [
+        {"id": "TC851 TU31", "image": "1.jpg"},
+        {"id": "TC841 TU31", "image": "2.jpg"},
+        {"id": "TC862 TU12", "image": "3.jpg"},
+        {"id": "TC871 TU21", "image": "4.jpg"},
+        {"id": "TC881 TU21", "image": "5.jpg"},
+        {"id": "TC882 TU22", "image": "6.jpg"},
+        {"id": "TC891 TU21", "image": "7.jpg"},
+        {"id": "TCC2411", "image": "8.jpg"},
+        {"id": "", "image": "9.jpg"},
+        {"id": "", "image": "10.jpg"},
+        {"id": "", "image": "11.jpg"},
+        {"id": "", "image": "12.jpg"}
+    ],
+    "pdf": [
+        "CT12.pdf",
+        "CTPCatalogueP10-1.pdf",
+        "CTPCatalogueP10-2.pdf",
+        "CTPCatalogueP11-1.pdf"
+    ]
+}
