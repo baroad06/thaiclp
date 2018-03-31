@@ -5,26 +5,37 @@
         {
           "name": "ลูกล้อ",
           "url": "1-casters",
+          "pdf": true,
           "subfolder": [
               {
                   "name": "ล้อ 1 นิ้ว",
                   "url": "caster-1-inch",
-                  "pdf": [
-                      "CTPCatalogueP1.pdf",
-                      "CTPCatalogueP2.pdf"
+                  "pdf": true,
+                  "image": [
+                      {"id": "TAY11021 TAY12021", "image": "1.jpg"},
+                      {"id": "TAX11021 TAX12021", "image": "2.jpg"},
+                      {"id": "TAY11401 TAY12401", "image": "3.jpg"},
+                      {"id": "TAY11701 TAY12701", "image": "4.jpg"}
                   ]
               },
               {
                   "name": "ล้อ 2 นิ้ว",
                   "url": "caster-2-inch",
-                  "pdf": [
-                      "CTPCatalogueP3.pdf",
-                      "CTPCatalogueP4.pdf"
+                  "pdf": true,
+                  "image": [
+                      {"id": "TAX21021 TAX22021", "image": "1.jpg"},
+                      {"id": "TAX21023 TAX22023", "image": "2.jpg"},
+                      {"id": "TAY21501 TAY22501", "image": "3.jpg"},
+                      {"id": "TAZ21511 TAZ22511", "image": "4.jpg"},
+                      {"id": "TAZ23511", "image": "5.jpg"},
+                      {"id": "TAY21531", "image": "6.jpg"},
+                      {"id": "TAY21723 TAY21724", "image": "7.jpg"}
                   ]
               },
               {
                   "name": "ล้อกระทะ",
                   "url": "casters-krata",
+                  "pdf": false,
                   "image": [
                       {"id": "TAQ31081", "image": "Untitled-4.jpg"},
                       {"id": "TAQ42121", "image": "Untitled-5.jpg"},
@@ -35,6 +46,7 @@
               {
                   "name": "ล้อแก้มแบน 60mm",
                   "url": "flat-casters-60mm",
+                  "pdf": false,
                   "image": [
                       {"id": "", "image": "1.jpg"},
                       {"id": "", "image": "2.jpg"},
@@ -47,6 +59,7 @@
               {
                   "name": "ล้อขาวไนลอน",
                   "url": "nylon-casters",
+                  "pdf": false,
                   "image": [
                       {"id": "TAP12042", "image": "Untitled-13.jpg"},
                       {"id": "TAP11042 TAP21042 TAP31102 TAP41122", "image": "Untitled-14.jpg"},
@@ -57,6 +70,7 @@
               {
                   "name": "ล้อบอล",
                   "url": "ball-casters",
+                  "pdf": false,
                   "image": [
                       {"id": "TAO11031 TAO21031", "image": "Untitled-1.jpg"},
                       {"id": "TAO21541", "image": "Untitled-8.jpg"}
@@ -65,6 +79,7 @@
               {
                   "name": "ล้อแป้นตาย",
                   "url": "caster-with-rigid-platform",
+                  "pdf": false,
                   "image": [
                       {"id": "TAR21051", "image": "Untitled-6.jpg"},
                       {"id": "TAQ41131", "image": "Untitled-7.jpg"}
@@ -73,6 +88,7 @@
               {
                   "name": "ล้อยาง",
                   "url": "rubber-casters",
+                  "pdf": false,
                   "image": [
                       {"id": "TAR12551", "image": "Untitled-2.jpg"},
                       {"id": "TAR11551 TAR21551 TAR31611 TAR41621 TAR51641", "image": "Untitled-3.jpg"},
@@ -94,10 +110,7 @@
                 {"id": "TW1412", "image": "Untitled-6.png"},
                 {"id": "TW1411", "image": "Untitled-7.png"}
             ],
-            "pdf": [
-                "CTPCatalogueP12_new.pdf",
-                "CTPCatalogueP13_new.pdf"
-            ]
+            "pdf": true
         },
         {
             "name": "กลุ่มเฟอร์นิเจอร์",
@@ -105,20 +118,12 @@
             "image": [
 
             ],
-            "pdf": [
-                "TradingCatalogueP2.pdf",
-                "TradingCatalogueP3.pdf",
-                "TradingCatalogueP4.pdf",
-                "TradingCatalogueP5.pdf"
-            ]
+            "pdf": true
         },
         {
             "name": "มือจับและปุ่มจับ",
             "url": "4-grip-and-button-grip",
-            "pdf": [
-                "CTPCatalogueP9.pdf",
-                "TradingCatalogueP6.pdf"
-            ]
+            "pdf": true
         },
         {
             "name": "ปุ่มยาง",
@@ -137,12 +142,7 @@
                 {"id": "", "image": "11.jpg"},
                 {"id": "", "image": "12.jpg"}
             ],
-            "pdf": [
-                "CT12.pdf",
-                "CTPCatalogueP10-1.pdf",
-                "CTPCatalogueP10-2.pdf",
-                "CTPCatalogueP11-1.pdf"
-            ]
+            "pdf": true
         },
         {
             "name": "อุปกรณ์เตียง-ตู้",
@@ -156,10 +156,7 @@
                 {"id": "", "image": "IMG_6612.JPG"},
                 {"id": "", "image": "IMG_6613.JPG"}
             ],
-            "pdf": [
-                "CTPCatalogueP7.pdf",
-                "CTPCatalogueP8.pdf"
-            ],
+            "pdf": true,
             "subfolder": [
                 {
                     "name": "ขาเตียง",
@@ -173,12 +170,7 @@
                       {"id": "", "image": "06.jpg"},
                       {"id": "", "image": "07.jpg"}
                     ],
-                    "pdf": [
-                      "leg-1.pdf",
-                      "leg-2.pdf",
-                      "leg-3.pdf",
-                      "plastic-leg.pdf"
-                    ]
+                    "pdf": true
                 },
                 {
                     "name": "น็อตสกรูเหล็ก",
@@ -195,9 +187,7 @@
                         {"id": "", "image": "IMG_6608.JPG"},
                         {"id": "", "image": "IMG_6609.JPG"}
                     ],
-                    "pdf": [
-                        "C15.pdf"
-                    ]
+                    "pdf": true
                 },
                 {
                     "name": "ป้ายเตียงเหล็ก",
@@ -212,9 +202,7 @@
                         {"id": "TBM62", "image": "7.png"},
                         {"id": "", "image": "11.png"}
                     ],
-                    "pdf": [
-                        "C16.pdf"
-                    ]
+                    "pdf": true
                 }
             ]
         },
@@ -224,10 +212,7 @@
             "image": [
 
             ],
-            "pdf": [
-                "C17.pdf",
-                "yang-kraba.pdf"
-            ]
+            "pdf": true
         },
         {
             "name": "กลุ่มสินค้าสั่งทำพิเศษ",
@@ -235,10 +220,6 @@
             "image": [
                   {"id": "", "image": "made-by-order-1.jpg"},
                   {"id": "", "image": "made-by-order-2.jpg"}
-            ],
-            "pdf": [
-                "CTPCatalogueP9.pdf",
-                "TradingCatalogueP6.pdf"
             ]
         }
     ]

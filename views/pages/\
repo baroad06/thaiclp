@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/aboutus.css">
+    <link rel="stylesheet" href="/css/essential.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <title><%= productcat.name %></title>
+</head>
+<body>
+    <%- include ../partials/navbar.ejs %>
+    <%- include('../partials/cover.ejs', {link: '/images/aboutus/cover.jpg'}) %>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm-9">
+                <h1 style="text-align: center">
+                    <%= productcat.name %>
+                </h1>
+                <% var countGroup = 0 %>
+                <% if (productcat.image) { %>
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="w3-content w3-display-container">
+                                <% for (var j = 0; j < productcat.image.length; j++) { %>
+                                <div class="<%= "w3-display-container mySlides"+countGroup+" w3-animate-opacity" %>" >
+                                    <img src=<%= "/images/catalog/"+productcat.url+"/"+productcat.image[j].image %> style="width:100%">
+                                    <% if (productcat.image[j].id !== "") { %>
+                                    <div class="w3-display-bottommiddle w3-text-white w3-container w3-padding-32">
+                                        <span class="w3-white w3-padding-large"><%= productcat.image[j].id %></span>
+                                    </div>
+                                    <% } %>
+                                </div>
+                                <% } %>
+                                <button class="w3-button w3-black w3-display-left" onclick="<%= "plusDivs(-1,"+countGroup+")" %>" >&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="<%= "plusDivs(1,"+countGroup+")" %>" >&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                    <% countGroup += 1 %>
+                    <% if (productcat.pdf) { %>
+                    <embed style="display: block;margin-left: auto; margin-right: auto; margin-top: 2em" src= "/images/catalog/<%= productcat.url %>/catalog.pdf" width="595" height="841">
+                    <% } %>
+                    <!--
+                    <% for (var i = 0; i < productcat.image.length/2; i++) { %>
+                        <div class="row">
+                            <div class="col-md">
+                                <img class="img-responsive img-article-bottom" src=<%= "/images/catalog/"+productcat.url+"/"+productcat.image[i*2].image %> >
+                                <div style="text-align: center"><%= productcat.image[i*2].id %><br></div>
+                            </div>
+                            <div class="col-md">
+                                <% if (i*2+1 < productcat.image.length) { %>
+                                <img class="img-responsive img-article-bottom" src=<%= "/images/catalog/"+productcat.url+"/"+productcat.image[i*2+1].image %> >
+                                <div style="text-align: center"><%= productcat.image[i*2+1].id %><BR></DIV>
+                                <% } %>
+                            </div>
+                        </div>
+                    <% } %>
+                    -->
+                <% } %>
+                <% var subfolder = productcat.subfolder %>
+                <% if (subfolder) { %>
+                    <% for (var i = 0; i < subfolder.length; i++) { %>
+                        <h1 style="text-align: center; margin-top: 2em">
+                            <%= subfolder[i].name %>
+                        </h1>
+                        <% var subfolderi = subfolder[i] %>
+                        <% if (subfolderi.image) { %>
+                            <div class="row">
+                                <div class="col-md">
+                                    <div class="w3-content w3-display-container">
+                                        <% for (var j = 0; j < subfolderi.image.length; j++) { %>
+                                        <div class="<%= "w3-display-container mySlides"+countGroup+" w3-animate-opacity" %>" >
+                                            <img src=<%= "/images/catalog/"+productcat.url+"/"+subfolderi.url+"/"+subfolderi.image[j].image %> style="width:100%">
+                                            <div class="w3-display-bottommiddle w3-text-white w3-container w3-padding-32">
+                                                <span class="w3-white w3-padding-large"><%= subfolderi.image[j].id %></span>
+                                            </div>
+                                        </div>
+                                        <% } %>
+                                        <button class="w3-button w3-black w3-display-left" onclick=<%= "plusDivs(-1,"+countGroup+")" %> >&#10094;</button>
+                                        <button class="w3-button w3-black w3-display-right" onclick=<%= "plusDivs(1,"+countGroup+")" %> >&#10095;</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <% countGroup += 1 %>
+                        <% } %>
+                        <%= subfolderi.pdf %>
+                        <% if (subfolderi.pdf) { %>
+                        <embed style="display: block;margin-left: auto; margin-right: auto; margin-top: 2em" src="<%= "/images/catalog/"+productcat.url+"/"+subfolderi.url+"/catalog.pdf" %>" width="595" height="841">
+                        <% } %>
+                    <% } %>
+                <% } %>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+    </div>
+    <%- include ../partials/footer.ejs %>
+</body>
+<script>
+var group = <%= countGroup %>;
+var slideIndex = new Array(group);
+for (var i = 0; i < group; i++) {
+    slideIndex[i] = 1;
+    showDivs(slideIndex[i], i);
+}
+
+function plusDivs(n, g) {
+  showDivs(slideIndex[g] += n, g);
+}
+
+function showDivs(n, g) {
+  var i;
+  var x = document.getElementsByClassName("mySlides"+g);
+  if (n > x.length) {slideIndex[g] = 1}
+  if (n < 1) {slideIndex[g] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[g]-1].style.display = "block";
+}
+</script>
+</html>
