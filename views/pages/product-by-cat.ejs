@@ -15,16 +15,21 @@
     <%- include('../partials/cover.ejs', {link: '/images/aboutus/cover.jpg'}) %>
     <div class="container">
         <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm-9">
+            <div class="col">
                 <h1 style="text-align: center">
                     <%= productcat.name %>
                 </h1>
-                <% var countGroup = 0 %>
                 <% if (productcat.pdf) { %>
-                <embed style="display: block; margin-left: auto; margin-right: auto; margin-top: 2em" src="/images/catalog/<%= productcat.url %>/catalog.pdf" width="595" height="841">
+                <embed style="display: block; margin-left: auto; margin-right: auto; margin-top: 2em" src="/images/catalog/<%= productcat.url %>/catalog.pdf" width="396" height="560">
                 <a href="/images/catalog/<%= productcat.url %>/catalog.pdf" style="color: blue; text-align: center; display: block; margin-top: 1em;">Download Catalog</a>
                 <% } %>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm-9">
+                <% var countGroup = 0 %>
                 <% var subfolder = productcat.subfolder %>
                 <% if (subfolder) { %>
                     <% for (var i = 0; i < subfolder.length; i++) { %>
@@ -39,9 +44,11 @@
                                         <% for (var j = 0; j < subfolderi.image.length; j++) { %>
                                         <div class="w3-display-container mySlides<%= countGroup %> w3-animate-opacity" >
                                             <img src="/images/catalog/<%= productcat.url %>/<%= subfolderi.url %>/<%= subfolderi.image[j].image %>" style="width:100%">
+                                            <% if (subfolderi.image[j].id !== "") { %>
                                             <div class="w3-display-bottommiddle w3-text-white w3-container w3-padding-32">
                                                 <span class="w3-white w3-padding-large"><%= subfolderi.image[j].id %></span>
                                             </div>
+                                            <% } %>
                                         </div>
                                         <% } %>
                                         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, <%= countGroup %>)" >&#10094;</button>

@@ -8,8 +8,8 @@
           "pdf": true,
           "subfolder": [
               {
-                  "name": "ล้อ 1 นิ้ว",
-                  "url": "caster-1-inch",
+                  "name": "ล้อ 1.5 นิ้ว",
+                  "url": "caster-1-5-inch",
                   "pdf": true,
                   "image": [
                       {"id": "TAY11021 TAY12021", "image": "1.jpg"},
