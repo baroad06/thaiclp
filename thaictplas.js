@@ -2,10 +2,23 @@ var express = require('express')
 var app = express()
 var path = require('path')
 var http = require('http')
+var https = require('https')
+var url = require('url')
 var fs = require('fs')
 var product = require('./product/product')
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.enable('trust proxy')
+var hostname = "";
+app.use(function (req, res, next) {
+    if (req.secure) {
+        hostname = req.headers.host;
+        console.log("hostname = " + hostname);
+        next();
+    } else {
+        console.log(req.headers.host);
+        res.redirect('https://'+req.headers.host+req.url);
+    }
+});
 app.set('view engine', 'ejs')
 
 app.get('/', function(req, res) {
@@ -19,4 +32,10 @@ app.get('/contactus', function(req,res) {
 })
 app.use('/product', product)
 
-app.listen(3000)
+const options = {
+    cert: fs.readFileSync('./sslcert/fullchain.pem'),
+    key: fs.readFileSync('./sslcert/privkey.pem')
+};
+
+app.listen(80)
+https.createServer(options, app).listen(443)

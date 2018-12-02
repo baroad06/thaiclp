@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/aboutus.css">
     <link rel="stylesheet" href="/css/essential.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <%- include ../partials/includings.ejs %>
     <title><%= productcat.name %></title>
 </head>
 <body>
@@ -20,10 +18,9 @@
                     <%= productcat.name %>
                 </h1>
                 <% if (productcat.pdf) { %>
-                <embed style="display: block; margin-left: auto; margin-right: auto; margin-top: 2em" src="/images/catalog/<%= productcat.url %>/catalog.pdf" width="396" height="560">
+                <embed class="d-none d-sm-block" style="display: block; margin-left: auto; margin-right: auto; margin-top: 2em" src="/images/catalog/<%= productcat.url %>/catalog.pdf" width="396" height="560">
                 <a href="/images/catalog/<%= productcat.url %>/catalog.pdf" style="color: blue; text-align: center; display: block; margin-top: 1em;">Download Catalog</a>
                 <% } %>
-                
             </div>
         </div>
         <div class="row">
@@ -45,8 +42,8 @@
                                         <div class="w3-display-container mySlides<%= countGroup %> w3-animate-opacity" >
                                             <img src="/images/catalog/<%= productcat.url %>/<%= subfolderi.url %>/<%= subfolderi.image[j].image %>" style="width:100%">
                                             <% if (subfolderi.image[j].id !== "") { %>
-                                            <div class="w3-display-bottommiddle w3-text-white w3-container w3-padding-32">
-                                                <span class="w3-white w3-padding-large"><%= subfolderi.image[j].id %></span>
+                                            <div class="w3-center">
+                                                <span class="w3-white"><%= subfolderi.image[j].id %></span>
                                             </div>
                                             <% } %>
                                         </div>

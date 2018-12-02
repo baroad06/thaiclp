@@ -2,36 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/essential.css">
     <link rel="stylesheet" href="/css/contactus.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <%- include ../partials/includings.ejs %>
+    <link rel="stylesheet" href="/css/essential.css">
     <title>บริษัท ไทยชลธารพลาส จำกัด </title>
 </head>
 <body>
     <%- include ../partials/navbar.ejs %>
     <%- include('../partials/cover.ejs', {link: '/images/index/cover.jpg'}) %>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm-9">
-                <h1 style="text-align: center;">ยินดีต้อนรับ</h1>
+            <div class="col"></div>
+            <div class="col-12 col-md-9">
+                <h1 style="text-align: center;">ยินดีต้อนรับ (Welcome)</h1>
                 ไทยชลธารพลาส เรามีความเชี่ยวชาญในด้านการผลิตสินค้าพลาสติก ทั้งแบบฉีด (Injection) และรีด (Extrusion) โดยเน้นที่ความต้องการของลูกค้าเป็นสำคัญ<br><br>
                 เรามีความพร้อมด้านเครื่องจักรและบุคลากร ช่วยอำนวยความสะดวกในการดำเนินงานของท่านได้<br><br>
                 Thai Chonlatharn Plas Co.,Ltd is the plastic fabrication company that highly welcome to serves our customers the quality products. Please feel free to check out our catalogue or contact us on the link down below.
                 <div class="row">
                     <div class="col-md" style="text-align: center">
                         <a href="/product"><img class="img-responsive img-article-bottom" src="/images/index/catalog.jpg" alt=""></a>
-                        <a href="/product">แค็ตตาล็อกสินค้า</a><br>
+                        <a href="/product">แค็ตตาล็อกสินค้า (Catalogue)</a><br>
                     </div>
                     <div class="col-md" style="text-align: center">
                         <a href="/contactus"><img class="img-responsive img-article-bottom" src="/images/index/contactus.jpg" alt=""></a>
-                        <a href="/contactus">ติดต่อเรา</a>
+                        <a href="/contactus">ติดต่อเรา (Contact Us)</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm"></div>
+            <div class="col"></div>
         </div>
     </div>
     <%- include ../partials/footer.ejs %>
