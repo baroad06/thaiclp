@@ -123,6 +123,14 @@
         {
             "name": "มือจับและปุ่มจับ",
             "url": "4-grip-and-button-grip",
+            "image": [
+                {"id": "", "image": "01.jpg"},
+                {"id": "", "image": "02.jpg"},
+                {"id": "", "image": "03.jpg"},
+                {"id": "", "image": "04.jpg"},
+                {"id": "", "image": "05.jpg"},
+                {"id": "", "image": "06.jpg"}
+            ],
             "pdf": true
         },
         {
