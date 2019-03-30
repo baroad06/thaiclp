@@ -155,17 +155,12 @@
                 {"id": "", "image": "IMG_6412.JPG"},
                 {"id": "", "image": "IMG_6612.JPG"},
                 {"id": "", "image": "IMG_6613.JPG"},
-                {"id": "กรวยสั้น", "image": "01.png"},
-                {"id": "กลม", "image": "02.png"},
-                {"id": "ดอกไม้", "image": "03.png"},
-                {"id": "เดือย", "image": "04.png"},
-                {"id": "ร่ม", "image": "05.png"},
                 {"id": "ล้อ2", "image": "06.png"},
                 {"id": "ล้อน้ำตาลเกลียวยาว", "image": "07.png"},
                 {"id": "ล้อน้ำตาลยาว", "image": "08.png"},
                 {"id": "ล้อน้ำตาลสั้น", "image": "09.png"},
                 {"id": "ล้อน้ำตาลเกลียวยาว", "image": "10.png"},
-                {"id": "ล้อน้ำตาลเกลียวสั้น", "image": "11.png"}
+                {"id": "ล้อน้ำตาลเกลียวสั้น", "image": "01.png"}
             ],
             "pdf": true,
             "subfolder": [
@@ -180,7 +175,12 @@
                       {"id": "", "image": "05.jpg"},
                       {"id": "", "image": "06.jpg"},
                       {"id": "", "image": "07.jpg"},
-                      {"id": "PB240135", "image": "08.png"}
+                      {"id": "PB240135", "image": "08.png"},
+                      {"id": "กลม", "image": "09.png"},
+                      {"id": "ดอกไม้", "image": "10.png"},
+                      {"id": "เดือย", "image": "11.png"},
+                      {"id": "ร่ม", "image": "12.png"},
+                      {"id": "กรวยสั้น", "image": "13.png"}
                     ],
                     "pdf": true
                 },
