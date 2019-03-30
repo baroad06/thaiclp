@@ -129,7 +129,8 @@
                 {"id": "", "image": "03.jpg"},
                 {"id": "", "image": "04.jpg"},
                 {"id": "", "image": "05.jpg"},
-                {"id": "", "image": "06.jpg"}
+                {"id": "", "image": "06.png"},
+                {"id": "", "image": "07.png"}
             ],
             "pdf": true
         },
