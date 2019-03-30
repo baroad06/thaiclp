@@ -174,8 +174,8 @@
             "pdf": true,
             "subfolder": [
                 {
-                    "name": "ขาเตียง",
-                    "url": "bed-leg",
+                    "name": "ขาเตียง-ตู้",
+                    "url": "bed-closet-leg",
                     "image": [
                       {"id": "TBL4096 TBL4196 TBL4296 TBL4396", "image": "01.jpg"},
                       {"id": "TBL413", "image": "02.jpg"},
@@ -222,6 +222,20 @@
                         {"id": "TBM65", "image": "6.png"},
                         {"id": "TBM62", "image": "7.png"},
                         {"id": "", "image": "11.png"}
+                    ],
+                    "pdf": true
+                },
+                {
+                    "name": "ล้อน้ำตาล",
+                    "url": "brown-wheel",
+                    "image": [
+                      {"id": "", "image": "01.png"},
+                      {"id": "", "image": "02.png"},
+                      {"id": "", "image": "03.png"},
+                      {"id": "", "image": "04.png"},
+                      {"id": "", "image": "05.png"},
+                      {"id": "", "image": "06.png"},
+                      {"id": "", "image": "07.png"}
                     ],
                     "pdf": true
                 }
