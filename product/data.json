@@ -41,10 +41,6 @@
                       {"id": "TAQ42121", "image": "Untitled-5.jpg"},
                       {"id": "TAQ31611", "image": "Untitled-11.jpg"},
                       {"id": "TAQ42121", "image": "Untitled-12.jpg"},
-                      {"id": "", "image": "01.png"},
-                      {"id": "", "image": "02.png"},
-                      {"id": "", "image": "03.png"},
-                      {"id": "", "image": "04.png"},
                       {"id": "", "image": "05.png"},
                       {"id": "", "image": "06.png"}
                   ]
@@ -103,6 +99,19 @@
                       {"id": "", "image": "01.jpg"},
                       {"id": "", "image": "02.jpg"}
                   ]
+              },
+              {
+                "name": "ล้อเหล็ก",
+                "url": "metal-casters",
+                "pdf": false,
+                "image": [
+                    {"id": "", "image": "01.png"},
+                    {"id": "", "image": "02.png"},
+                    {"id": "", "image": "03.png"},
+                    {"id": "", "image": "04.png"},
+                    {"id": "", "image": "05.jpg"},
+                    {"id": "", "image": "06.jpg"}
+                ]
               }
           ]
         },
