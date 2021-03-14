@@ -131,6 +131,14 @@
             "pdf": true
         },
         {
+            "name": "งานรีด",
+            "url": "7-extrusion",
+            "image": [
+
+            ],
+            "pdf": true
+        },
+        {
             "name": "กลุ่มเฟอร์นิเจอร์",
             "url": "3-furniture",
             "image": [
@@ -251,14 +259,6 @@
                     "pdf": true
                 }
             ]
-        },
-        {
-            "name": "งานรีด",
-            "url": "7-extrusion",
-            "image": [
-
-            ],
-            "pdf": true
         },
         {
             "name": "กลุ่มสินค้าสั่งทำพิเศษ",
