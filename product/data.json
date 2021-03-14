@@ -106,12 +106,9 @@
                 "url": "metal-casters",
                 "pdf": false,
                 "image": [
-                    {"id": "", "image": "01.png"},
-                    {"id": "", "image": "02.png"},
-                    {"id": "", "image": "03.png"},
-                    {"id": "", "image": "04.png"},
-                    {"id": "", "image": "05.jpg"},
-                    {"id": "", "image": "06.jpg"}
+                    {"id": "", "image": "07.png"},
+                    {"id": "", "image": "08.png"},
+                    {"id": "", "image": "09.png"}
                 ]
               }
           ]
