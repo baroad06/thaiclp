@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/css/contactus.css">
-    <link rel="stylesheet" href="/css/essential.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/essential.css" />
     <%- include ../partials/includings.ejs %>
     <title>ผลิตภัณฑ์ของไทยชลธารพลาส</title>
-</head>
-<body>
-    <%- include ../partials/navbar.ejs %>
-    <%- include('../partials/cover.ejs', {link: '/images/product/cover.jpg'}) %>
-    <div class="container">
-        <div class="row">
-            <div class="col-md"></div>
-            <div class="col-md-9">
-                <h1 style="text-align: center">
-                    ผลิตภัณฑ์ของไทยชลธารพลาส (Catalogue)
-                </h1>
-                <% var subfolder = product.subfolder %>
-                <% for (var i = 0; i < subfolder.length/2; i++) { %>
-                    <div class="row">
-                        <div class="col-md">
-                            <a href="/product/<%= subfolder[2*i].url %>"><img class="img-responsive img-article-bottom" src="/images/catalog/<%= subfolder[i*2].url %>/cover.jpg"></a>
-                            <a href="/product/<%= subfolder[2*i].url %>"><div style="text-align: center"><%= subfolder[2*i]["name"] %></a><br></div>
-                        </div>
-                        <div class="col-md">
-                            <% if ((2*i)+1 < subfolder.length) { %>
-                            <a href="/product/<%= subfolder[2*i+1].url %>"><img class="img-responsive img-article-bottom" src="/images/catalog/<%= subfolder[i*2+1].url %>/cover.jpg"></a>
-                            <a href="/product/<%= subfolder[2*i+1].url %>"><div style="text-align: center"><%= subfolder[2*i+1]["name"] %></a><br></div>
-                            <% } %>
-                        </div>
-                    </div>
-                <% } %>
-            </div>
-            <div class="col-md"></div>
+  </head>
+  <body>
+    <%- include ../partials/navbar.ejs %> <%- include('../partials/cover.ejs',
+    {link: '/images/product/cover.jpg'}) %>
+    <div class="text-4xl text-center m-4">ผลิตภัณฑ์ของไทยชลธารพลาส</div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-row mt-3">
+        <div class="flex-none">
+          <div class="flex-col mx-4">
+            <div class="text-lg font-bold mb-3">ประเภท</div>
+            <div class="text-base">ลูกล้อ</div>
+            <div class="text-base">ล้อลูกปืน</div>
+            <div class="text-base">งานรีด</div>
+            <div class="text-base">กลุ่มเฟอร์นิเจอร์</div>
+            <div class="text-base">มือจับและปุ่มจับ</div>
+            <div class="text-base">ปุ่มยาง</div>
+            <div class="text-base">อุปกรณ์เตียง-ตู้</div>
+            <div class="text-base">กลุ่มสินค้าสั่งทำพิเศษ</div>
+          </div>
         </div>
+        <div class="flex-grow mt-4">
+          <div class="grid grid-cols-3 gap-3">
+            <% for (var i = 0; i < 30; i++) { %>
+            <div class="flex-none">
+              <img src="/images/etc/IMG_3225.jpg" alt="" />
+              <div class="text-lg font-bold">Lorem ipsum dolor sit amet.</div>
+              <div class="text-base">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                minus dolorum nam. Laborum laudantium animi, optio fuga maiores
+                necessitatibus libero ad dolore quo harum reiciendis asperiores
+                aspernatur vero nihil eligendi.
+              </div>
+            </div>
+            <% } %>
+          </div>
+        </div>
+      </div>
     </div>
     <%- include ../partials/footer.ejs %>
-</body>
+  </body>
 </html>

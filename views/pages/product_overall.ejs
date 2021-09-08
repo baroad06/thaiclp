@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/essential.css" />
+    <%- include ../partials/includings.ejs %>
+    <title>ผลิตภัณฑ์ของไทยชลธารพลาส</title>
+  </head>
+  <body>
+    <%- include ../partials/navbar.ejs %> <%- include('../partials/cover.ejs',
+    {link: '/images/product/cover.jpg'}) %>
+    <div class="container flex flex-col"></div>
+    <div class="text-2xl md:text-5xl text-center mt-10">ผลิตภัณฑ์ของไทยชลธารพลาส</div>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-2 h-4/6 md:h-96 mx-4 md:mx-40 my-10 justify-center">
+        <div class="flex flex-col justify-center text-center text-xl md:text-5xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center " style= "background-image: url('/images/catalog/1-casters/cover.jpg')">ลูกล้อ</div>
+        <div class="flex flex-col justify-center text-center text-xl md:text-5xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center " style= "background-image: url('/images/catalog/2-caster-bearings/cover.jpg')">ล้อลูกปืน</div>
+        <div class="flex flex-col justify-center text-center text-xl md:text-5xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center" style= "background-image: url('/images/catalog/7-extrusion/cover.jpg')">งานรีด</div>
+        <div class="flex flex-col justify-center text-center text-xl md:text-5xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center" style= "background-image: url('/images/catalog/4-grip-and-button-grip/cover.jpg')">มือจับและปุ่มจับ</div>
+        <div class="flex flex-col justify-center text-center text-xl md:text-5xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center" style= "background-image: url('/images/catalog/5-rubber-button/cover.jpg')">ปุ่มยาง</div>
+        <div class="flex flex-col justify-center text-center text-xl md:text-5xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center" style= "background-image: url('/images/catalog/6-bed-closet-equipment/cover.jpg')">อุปกรณ์เตียง-ตู้</div>
+        <div class="flex flex-col justify-center text-center text-xl md:text-5xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center" style= "background-image: url('/images/catalog/3-furniture/cover.jpg')">กลุ่มเฟอร์นิเจอร์</div>
+        <div class="flex flex-col justify-center text-center text-xl md:text-3xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 bg-cover bg-center" style= "background-image: url('/images/catalog/8-made-by-order/cover.jpg')">กลุ่มสินค้าสั่งทำพิเศษ</div>
+      </div>
+    </div>
+    <%- include ../partials/footer.ejs %>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.content {
+  display: grid;
+  background-color: tomato;
+}
+.text {
+  font-size: 1.5vw;
+  flex-wrap: wrap;
+  margin: 2rem 0rem;
+  background-color: violet;
+}

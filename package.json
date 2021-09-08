@@ -2,9 +2,10 @@
   "name": "thaictplas",
   "version": "1.0.0",
   "description": "thai chonlatharn plas company limited",
-  "main": "index.js",
+  "main": "thaictplas.js",
   "scripts": {
-    "test": "thaictplas"
+    "test": "thaictplas",
+    "build:css": "postcss src/style.css -o public/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,14 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.7",
+    "express": "^4.17.1",
     "helmet": "^3.12.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "nodemon": "^2.0.12",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.9"
   }
 }
