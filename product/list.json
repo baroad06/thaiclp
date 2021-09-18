@@ -1,0 +1,36 @@
+{
+    "list_name": [
+        {
+            "name": "ลูกล้อ",
+            "url": "1-casters"
+        },
+        {
+            "name": "ล้อลูกปืน",
+            "url": "2-caster-bearings"
+        },
+        {
+            "name": "งานรีด",
+            "url": "7-extrusion"
+        },
+        {
+            "name": "กลุ่มเฟอร์นิเจอร์",
+            "url": "3-furniture"
+        },
+        {
+            "name": "มือจับและปุ่มจับ",
+            "url": "4-grip-and-button-grip"
+        },
+        {
+            "name": "ปุ่มยาง",
+            "url": "5-rubber-button"
+        },
+        {
+            "name": "อุปกรณ์เตียง-ตู้",
+            "url": "6-bed-closet-equipment"
+        },
+        {
+            "name": "กลุ่มสินค้าสั่งทำพิเศษ",
+            "url": "8-made-by-order"
+        }
+    ]
+}

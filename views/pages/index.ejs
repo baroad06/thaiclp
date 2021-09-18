@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <%- include ../partials/includings.ejs %>
     <link rel="stylesheet" href="/css/essential.css" />
     <title>บริษัท ไทยชลธารพลาส จำกัด</title>
@@ -10,24 +10,34 @@
   <body>
     <%- include ../partials/navbar.ejs %> <%-
     include('../partials/cover.ejs',{link: '/images/index/cover.jpg'}) %>
-    <div class="container">
-      <div class="header">
-        <h1>ยินดีต้อนรับ (Welcome)</h1>
+    <div class="container mb-8">
+      <div class="text-2xl md:text-5xl text-center mt-10">
+        ยินดีต้อนรับ (Welcome)
       </div>
 
-      <div class="content">
-        <div class="text">
-          ไทยชลธารพลาส เรามีความเชี่ยวชาญในด้านการผลิตสินค้าพลาสติก ทั้งแบบฉีด
-          (Injection) และรีด (Extrusion) โดยเน้นที่ความต้องการของลูกค้าเป็นสำคัญ
-          เรามีความพร้อมด้านเครื่องจักรและบุคลากร
-          ช่วยอำนวยความสะดวกในการดำเนินงานของท่านได้
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-10">
+        <div class="text-3xl m-10">
+          <p class="text-left leading-normal">
+            ไทยชลธารพลาส เรามีความเชี่ยวชาญในด้านการผลิตสินค้าพลาสติก ทั้งแบบฉีด
+            (Injection) และรีด (Extrusion)
+            โดยเน้นที่ความต้องการของลูกค้าเป็นสำคัญ
+            เรามีความพร้อมด้านเครื่องจักรและบุคลากร
+            ช่วยอำนวยความสะดวกในการดำเนินงานของท่านได้
+          </p>
         </div>
-        <!-- <img src="\images\index\contactus.jpg" alt="" /> -->
-        <div class="text">
-          Thai Chonlatharn Plas Co.,Ltd is the plastic fabrication company that
-          highly welcome to serves our customers the quality products. Please
-          feel free to check out our catalogue or contact us on the link down
-          below.
+        <div>
+          <img class="rounded-md" src="/images/index/contactus.jpg" alt="" />
+        </div>
+        <div>
+          <img class="rounded-md" src="/images/index/contactus.jpg" alt="" />
+        </div>
+        <div class="text-3xl m-10">
+          <p class="text-left leading-normal">
+            Thai Chonlatharn Plas Co.,Ltd is the plastic fabrication company
+            that highly welcome to serves our customers the quality products.
+            Please feel free to check out our catalogue or contact us on the
+            link down below.
+          </p>
         </div>
       </div>
     </div>

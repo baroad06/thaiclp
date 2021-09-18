@@ -3,10 +3,21 @@
     "url": "catalog",
     "subfolder": [
         {
-          "name": "ลูกล้อ (Casters)",
+          "name": "ลูกล้อ",
           "url": "1-casters",
           "pdf": true,
-          "subfolder": [
+          "image" : [
+              {"id":"ล้อ 1.5 นิ้ว","image": "1.jpg"},
+              {"id":"ล้อ 2 นิ้ว","image": "1.jpg"},
+              {"id":"ล้อกระทะ","image": "1.jpg"},
+              {"id":"ล้อแก้มแบน 60 มม.","image": "1.jpg"},
+              {"id":"ล้อขาวไนลอน","image": "1.jpg"},
+              {"id":"ล้อบอล","image": "1.jpg"},
+              {"id":"ล้อแป้นตาย","image": "1.jpg"},
+              {"id":"ล้อยาง","image": "1.jpg"},
+              {"id":"ล้อเหล็ก","image": "1.jpg"}
+          ],
+          "subfolder": [ 
               {
                   "name": "ล้อ 1.5 นิ้ว",
                   "url": "caster-1-5-inch",
