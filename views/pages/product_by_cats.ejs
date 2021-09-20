@@ -10,14 +10,14 @@
   <body>
     <%- include ../partials/navbar.ejs %> <%-
     include('../partials/cover.ejs',{link: '/images/product/cover.jpg'}) %>
-    <div class="text-4xl text-center m-4">ผลิตภัณฑ์ของไทยชลธารพลาส</div>
+    <div class="text-5xl text-center m-20">ผลิตภัณฑ์ของไทยชลธารพลาส</div>
     <div class="container mx-auto px-4">
       <% var subfolder = productcat.image %> <% var list_name = list.list_name
       %>
       <div class="flex flex-row mt-3">
         <div class="flex-none">
-          <div class="flex-col mx-4">
-            <div class="text-lg font-bold mb-3">ประเภท</div>
+          <div class="flex-col mx-4 ">
+            <div class="text-4xl font-bold mb-3">ประเภท</div>
 
             <% for (var i = 0; i < list_name.length; i++) { %>
               <div>
@@ -30,18 +30,12 @@
             <% } %>
           </div>
         </div>
-        <div class="flex-grow mt-4">
-          <div class="grid grid-cols-3 gap-3">
+        <div class="flex-grow m-4">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
             <% for (var i = 0; i < subfolder.length; i++) { %>
             <div class="flex-none">
-              <img src="/images/etc/IMG_3225.jpg" alt="" />
-              <div class="text-lg font-bold"><%= subfolder[i].id %></div>
-              <div class="text-base">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
-                minus dolorum nam. Laborum laudantium animi, optio fuga maiores
-                necessitatibus libero ad dolore quo harum reiciendis asperiores
-                aspernatur vero nihil eligendi.
-              </div>
+              <img src="/images/catalog/<%= productcat.url %>/<%= subfolder[i].image %>" alt="" />
+              <div class="text-lg font-bold text-center mt-3"><%= subfolder[i].id %></div>
             </div>
             <% } %>
           </div>

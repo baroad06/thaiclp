@@ -7,15 +7,7 @@
           "url": "1-casters",
           "pdf": true,
           "image" : [
-              {"id":"ล้อ 1.5 นิ้ว","image": "1.jpg"},
-              {"id":"ล้อ 2 นิ้ว","image": "1.jpg"},
-              {"id":"ล้อกระทะ","image": "1.jpg"},
-              {"id":"ล้อแก้มแบน 60 มม.","image": "1.jpg"},
-              {"id":"ล้อขาวไนลอน","image": "1.jpg"},
-              {"id":"ล้อบอล","image": "1.jpg"},
-              {"id":"ล้อแป้นตาย","image": "1.jpg"},
-              {"id":"ล้อยาง","image": "1.jpg"},
-              {"id":"ล้อเหล็ก","image": "1.jpg"}
+              
           ],
           "subfolder": [ 
               {
@@ -128,21 +120,27 @@
             "name": "ล้อลูกปืน",
             "url": "2-caster-bearings",
             "image": [
-                {"id": "TW1203", "image": "Untitled-1.png"},
-                {"id": "TW1305 TW1405", "image": "Untitled-2.png"},
-                {"id": "TW1408", "image": "Untitled-3.png"},
-                {"id": "TW1403", "image": "Untitled-4.png"},
-                {"id": "TW1510", "image": "Untitled-5.png"},
-                {"id": "TW1412", "image": "Untitled-6.png"},
-                {"id": "TW1411", "image": "Untitled-7.png"}
+               
             ],
             "pdf": true
         },
         {
-            "name": "งานรีด",
+            "name": "งานรีด/ยางขอบกระบะ",
             "url": "7-extrusion",
             "image": [
-
+                {"id": "ยางซับในตู้เย็น", "image": "no1.png"},
+                {"id": "ยางรูปตัว Q ปีกกว้าง 58 mm. แกนยาว 20 mm", "image": "no2.png"},
+                {"id": "ยางรูปตัว Q ปีกกว้าง 58 mm. แกนยาว 28 mm", "image": "no3.png"},
+                {"id": "ยางรูปตัว Q ปีกกว้าง 58 mm. แกนยาว 32 mm", "image": "no4.png"},
+                {"id": "ยางรูปตัว Q ปีกกว้าง 60 mm. แกนยาว 27 mm. สองสี (เทา-เขียวนีออน)", "image": "no5.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 50 mm. แกนยาว 20 mm", "image": "no6.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 52 mm. แกนยาว 22 mm", "image": "no7.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 59 mm. แกนยาว 32 mm", "image": "no8.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 60 mm. แกนยาว 28 mm. สองสี (เทา-เขียวนีออน)", "image": "no9.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 62 mm. แกนยาว 20 mm", "image": "no10.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 62 mm. แกนยาว 25 mm", "image": "no11.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 62 mm. แกนยาว 28 mm", "image": "no12.png"},
+                {"id": "ยางรูปตัว T ปีกกว้าง 62 mm. แกนยาว 35 mm", "image": "no13.png"}
             ],
             "pdf": true
         },
@@ -158,13 +156,7 @@
             "name": "มือจับและปุ่มจับ",
             "url": "4-grip-and-button-grip",
             "image": [
-                {"id": "", "image": "01.jpg"},
-                {"id": "", "image": "02.jpg"},
-                {"id": "", "image": "03.jpg"},
-                {"id": "", "image": "04.jpg"},
-                {"id": "", "image": "05.jpg"},
-                {"id": "", "image": "06.png"},
-                {"id": "", "image": "07.png"}
+            
             ],
             "pdf": true
         },
@@ -172,18 +164,7 @@
             "name": "ปุ่มยาง",
             "url": "5-rubber-button",
             "image": [
-                {"id": "TC851 TU31", "image": "1.jpg"},
-                {"id": "TC841 TU31", "image": "2.jpg"},
-                {"id": "TC862 TU12", "image": "3.jpg"},
-                {"id": "TC871 TU21", "image": "4.jpg"},
-                {"id": "TC881 TU21", "image": "5.jpg"},
-                {"id": "TC882 TU22", "image": "6.jpg"},
-                {"id": "TC891 TU21", "image": "7.jpg"},
-                {"id": "TCC2411", "image": "8.jpg"},
-                {"id": "", "image": "9.jpg"},
-                {"id": "", "image": "10.jpg"},
-                {"id": "", "image": "11.jpg"},
-                {"id": "", "image": "12.jpg"}
+                
             ],
             "pdf": true
         },
@@ -272,8 +253,7 @@
             "name": "กลุ่มสินค้าสั่งทำพิเศษ",
             "url": "8-made-by-order",
             "image": [
-                  {"id": "", "image": "made-by-order-1.jpg"},
-                  {"id": "", "image": "made-by-order-2.jpg"}
+                 
             ]
         }
     ]
