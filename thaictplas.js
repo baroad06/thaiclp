@@ -1,11 +1,13 @@
-var express = require("express");
-var app = express();
+const express = require("express");
+const app = express();
+
 var path = require("path");
 var http = require("http");
 var https = require("https");
 var url = require("url");
 var fs = require("fs");
 var product = require("./product/product");
+var catalogue = require("./product/catalogue");
 app.use(express.static(path.join(__dirname, "public")));
 app.enable("trust proxy");
 var hostname = "";
@@ -30,9 +32,7 @@ app.get("/aboutus", function (req, res) {
 app.get("/contactus", function (req, res) {
   res.render("pages/contactus.ejs");
 });
-app.get("/catalogue", function (req, res) {
-  res.render("pages/catalogue.ejs");
-});
+app.use("/catalogue", catalogue);
 app.use("/product", product);
 
 const options = {

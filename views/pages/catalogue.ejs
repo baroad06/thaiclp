@@ -11,7 +11,16 @@
     <%- include ../partials/navbar.ejs %> <%-
     include('../partials/cover.ejs',{link: '/images/product/cover.jpg'}) %>
 
-    <div class="text-5xl font-bold text-center m-40">Coming Soon</div>
+    <div class="text-4xl md:text-5xl text-center m-14 md:m-20">แค็ตตาล็อก</div>
+
+    <div class="grid grid-cols-1 md:grid-cols-1 mb-3">
+      <% var subfolder = product.subfolder %>
+      <% for (var i = 0; i<subfolder.length; i++) { %>
+        <% if (subfolder[i].pdfurl !== undefined) {%>
+        <a class="flex flex-col justify-center text-center text-xl hover:no-underline md:text-4xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 hover:bg-gray-500 bg-cover bg-center mx-4 my-1 md:mx-5 md:my-3" href="<%= subfolder[i].pdfurl %>" target="_blank" style= "background-image: url('/images/catalog/<%= subfolder[i].url %>/cover.jpg')"><%= subfolder[i]["name"] %></a>
+        <% }%>
+      <% }%>
+    </div>
 
     <%- include ../partials/footer.ejs %>
   </body>
