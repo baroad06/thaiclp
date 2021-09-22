@@ -40,5 +40,5 @@ const options = {
   key: fs.readFileSync("./sslcert/privkey.pem"),
 };
 
-app.listen(80);
+app.listen(8000);
 https.createServer(options, app).listen(443);
