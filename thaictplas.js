@@ -35,5 +35,10 @@ app.get("/contactus", function (req, res) {
 app.use("/catalogue", catalogue);
 app.use("/product", product);
 
+const options = {
+  cert: fs.readFileSync("./sslcert/certificate.crt"),
+  key: fs.readFileSync("./sslcert/private.key"),
+};
+
 app.listen(8000);
-https.listen(4430);
+https.createServer(options, app).listen(4430);
