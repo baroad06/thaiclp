@@ -17,7 +17,7 @@
       <% var subfolder = product.subfolder %>
       <% for (var i = 0; i<subfolder.length; i++) { %>
         <% if (subfolder[i].pdfurl !== undefined) {%>
-        <a class="flex flex-col justify-center text-center text-xl hover:no-underline md:text-4xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 hover:bg-gray-500 bg-cover bg-center mx-4 my-1 md:mx-5 md:my-3" href="<%= subfolder[i].pdfurl %>" target="_blank" style= "background-image: url('/images/catalog/<%= subfolder[i].url %>/cover.jpg')"><%= subfolder[i]["name"] %></a>
+        <a class="flex flex-col justify-center text-center text-lg hover:no-underline md:text-3xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 hover:bg-gray-500 bg-cover bg-center mx-4 my-1 md:mx-5 md:my-3" href="<%= subfolder[i].pdfurl %>" target="_blank" style= "background-image: url('/images/catalog/<%= subfolder[i].url %>/cover.jpg')"><%= subfolder[i]["name"] %></a>
         <% }%>
       <% }%>
     </div>

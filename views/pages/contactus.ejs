@@ -3,100 +3,172 @@
   <head>
     <meta charset="UTF-8" />
     <%- include ../partials/includings.ejs %>
-    <link rel="stylesheet" href="/css/contactus.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/essential.css" />
     <title>ติดต่อเรา</title>
   </head>
   <body>
-    <%- include ../partials/navbar.ejs %> <%- include('../partials/cover.ejs',
-    {link: '/images/contactus/cover.jpg'}) %>
+    <%- include ../partials/navbar.ejs %> <%-
+    include('../partials/cover.ejs',{link: '/images/contactus/cover.jpg'}) %> <%
+    if (typeof alert != 'undefined') { %>
+    <div
+      class="
+        bg-blue-100
+        border-t border-b border-blue-500
+        text-blue-700
+        px-4
+        py-3
+      "
+      role="alert"
+    >
+      <p class="font-bold">Email have already send!</p>
+      <p class="text-sm">We'll contact you soon. Thank you.</p>
+    </div>
+    <% } %>
 
-    <div class="container">
-      <h1>ติดต่อไทยชลธารพลาส (Contact Us)</h1>
-      <div class="detail">
-        <div class="wrapper">
-          <div class="addr">
-            <h2>
-              <img src="/images/icons/pin.png" alt="" /> ที่อยู่ (Location)
-            </h2>
-            <div class="addrdetail">
-              <div class="text">บริษัท ไทยชลธารพลาส จำกัด</div>
-              <div class="text">13 ซอยเทียนทะเล 26 แยก 2</div>
-              <div class="text">
-                ถนนบางขุนเทียน-ชายทะเล แขวงท่าข้าม เขตบางขุนเทียน กทม. 10150
-              </div>
+    <div class="text-4xl md:text-5xl text-center m-14 md:m-20">
+      ติดต่อไทยชลธารพลาส (Contact Us)
+    </div>
 
-              <div class="text" style="margin-top: 1rem">
-                Thai Chonlatharn Plas Co.,Ltd
-              </div>
-              <div class="text">13 Soi Thian Thale 26 Yaek 2,</div>
-              <div class="text">Tha Kham, Bang Khun Thian, Bangkok,</div>
-              <div class="text">10150</div>
-            </div>
-          </div>
-          <div class="contact">
-            <h2>
-              <img
-                src="/images/icons/contact.png"
-                style="margin-inline: 0.5rem"
-                alt=""
-              />ติดต่อเรา (Contact)
-            </h2>
-            <div class="contactDetail">
-              <div class="text">โทรศัพท์: 02-451-1785, 02-453-6450</div>
-              <div class="text">โทรสาร (แฟ็กซ์): 02-453-6451</div>
-              <div class="text">โทรศัพท์มือถือ: 081-636-2175, 083-914-1469</div>
-              <div class="text">
-                อีเมล:
-                <a href="mailto:boonchuay@thaictp.com">boonchuay@thaictp.com</a>
-              </div>
-              <div class="text" style="margin-top: 1rem">
-                Tel: (+66)2-451-1785, (+66)2-453-6450,
-              </div>
-              <div class="text">(+66)81-636-2175, (+66)83-914-1469</div>
-              <div class="text">FAX: (+66)2-453-6451</div>
-              <div class="text">
-                E-mail:
-                <a href="mailto:boonchuay@thaictp.com">boonchuay@thaictp.com</a>
-              </div>
-            </div>
-          </div>
+    <div class="flex flex-col md:flex-row justify-center items-center my-10">
+      <div class="flex-col w-4/5 md:w-2/5">
+        <div class="flex">
+          <img
+            class="self-center max-h-7 max-w-7 mr-2"
+            src="/images/icons/pin.png"
+            alt=""
+          />
+          <div class="text-3xl">ที่อยู่ (Location)</div>
         </div>
-        <div class="email">
-          <h2>
-            IF YOU HAVE ANY QUESTIONS <br />
-            (Coming soon)
-          </h2>
-          <form action="">
+        <div class="text-lg mx-5 my-4">
+          บริษัท ไทยชลธารพลาส จำกัด 13 ซอยเทียนทะเล 26 แยก 2
+          ถนนบางขุนเทียน-ชายทะเล แขวงท่าข้าม เขตบางขุนเทียน กทม. 10150
+        </div>
+
+        <div class="text-lg mx-5 my-4">
+          Thai Chonlatharn Plas Co.,Ltd 13 Soi Thian Thale 26 Yaek 2, Tha Kham,
+          Bang Khun Thian, Bangkok, 10150
+        </div>
+        <div class="flex">
+          <img
+            class="self-center max-h-7 max-w-7 mr-2"
+            src="/images/icons/contact.png"
+            alt=""
+          />
+          <div class="text-3xl">ติดต่อเรา (Contact)</div>
+        </div>
+        <div class="text-lg mx-5 my-4">
+          โทรศัพท์: 02-451-1785, 02-453-6450 <br />โทรสาร (แฟ็กซ์): 02-453-6451
+          <br />โทรศัพท์มือถือ: 081-636-2175, 083-914-1469 <br />อีเมล:
+          <a href="mailto:boonchuay@thaictp.com">boonchuay@thaictp.com</a>
+        </div>
+        <div class="text-lg mx-5 my-4">
+          Tel: (+66)2-451-1785, (+66)2-453-6450, (+66)81-636-2175,
+          (+66)83-914-1469 <br />FAX: (+66)2-453-6451 <br />E-mail:
+          <a href="mailto:boonchuay@thaictp.com">boonchuay@thaictp.com</a>
+        </div>
+      </div>
+      <div class="flex-col">
+        <div class="text-2xl">IF YOU HAVE ANY QUESTIONS</div>
+        <form action="/send" method="POST" class="mb-0 space-y-6">
+          <label class="block text-sm font-medium text-gray-700">
+            Email address
+          </label>
+          <div class="mt-1 rounded-lg shadow-sm">
             <input
-              type="email"
-              class="form-control"
+              class="
+                w-full
+                border border-transparent
+                px-3
+                py-2
+                rounded-lg
+                focus:outline-none
+                focus:ring-2
+                focus:ring-purple-600
+                focus:border-transparent
+              "
+              autocomplete="email"
+              id="email"
               name="email"
-              placeholder="Your Email"
-              disabled
+              type="email"
+              required
+              placeholder="john@example.com"
             />
+          </div>
+
+          <label class="block text-sm font-medium text-gray-700">
+            <span class="text-gray-0"> Phone number</span>
+          </label>
+          <div class="mt-1 rounded-lg shadow-sm">
             <input
-              class="form-control"
+              class="
+                w-full
+                border border-transparent
+                px-3
+                py-2
+                rounded-lg
+                focus:outline-none
+                focus:ring-2
+                focus:ring-purple-600
+                focus:border-transparent
+              "
               type="text"
-              name="phone"
-              id="phone"
-              placeholder="Your Phone"
-              disabled
+              id="phoneNumber"
+              name="phoneNumber"
+              required
+              placeholder="0XX-XXXXXXX"
             />
+          </div>
+
+          <label class="block text-sm font-medium text-gray-700">
+            <span class="text-gray-0"> Message </span>
+          </label>
+          <div class="mt-1 rounded-lg shadow-sm">
             <textarea
-              class="form-control"
-              name=""
-              id=""
+              class="
+                form-textarea
+                w-full
+                border border-transparent
+                px-3
+                py-2
+                rounded-lg
+                focus:outline-none
+                focus:ring-2
+                focus:ring-purple-600
+                focus:border-transparent
+              "
               cols="30"
               rows="10"
+              type="text"
+              id="text"
+              name="text"
+              required
               placeholder="Your Message"
-              disabled
             ></textarea>
-            <button type="submit" class="btn btn-primary btn-lg btn-block">
+            <button
+              type="submit"
+              class="
+                w-full
+                mt-3
+                px-5
+                py-3
+                rounded-lg
+                bg-indigo-500
+                hover:bg-indigo-400 hover:-translate-y-0.5
+                focus:outline-none
+                focus:ring-2
+                focus:ring-purple-600
+                focus:ring-opacity-50
+                transform
+                transition
+                text-white
+                uppercase
+              "
+            >
               Send
             </button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </div>
     <iframe

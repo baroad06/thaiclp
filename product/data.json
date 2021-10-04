@@ -6,6 +6,7 @@
             "name": "ลูกล้อ",
             "url": "1-casters",
             "pdf": true,
+            "pdfurl": "https://heyzine.com/flip-book/90bdd14ae4.html",
             "image": [
                 {
                     "id": "ล้อ 1.5 นิ้ว",
@@ -277,34 +278,35 @@
         {
             "name": "ล้อลูกปืน",
             "url": "2-caster-bearings",
+            "pdfurl":"https://heyzine.com/flip-book/d9428ad49d.html",
             "image": [
                 {
-                    "id": "TW1203",
-                    "image": "Untitled-1.png"
+                    "id": "ล้อลูกปืน 22mm. แกนย้ำ",
+                    "image": "1.ล้อลูกปืน 22mm. แกนย้ำ.png"
                 },
                 {
-                    "id": "TW1305 TW1405",
-                    "image": "Untitled-2.png"
+                    "id": "ล้อลูกปืน 24 mm. แกนเกลียว",
+                    "image": "2. ล้อลูกปืน 24 mm. แกนเกลียว.png"
                 },
                 {
-                    "id": "TW1408",
-                    "image": "Untitled-3.png"
+                    "id": "ล้อลูกปืน 24 mm. แกนย้ำ",
+                    "image": "3. ล้อลูกปืน 24 mm. แกนย้ำ.png"
                 },
                 {
-                    "id": "TW1403",
-                    "image": "Untitled-4.png"
+                    "id": "ล้อลูกปืน 26 mm. แกนเกลียว",
+                    "image": "4. ล้อลูกปืน 26 mm. แกนเกลียว.png"
                 },
                 {
-                    "id": "TW1510",
-                    "image": "Untitled-5.png"
+                    "id": "ล้อลูกปืน 26 mm. แกนย้ำ",
+                    "image": "5.ล้อลูกปืน 26 mm. แกนย้ำ.png"
                 },
                 {
-                    "id": "TW1412",
-                    "image": "Untitled-6.png"
+                    "id": "ล้อลูกปืน 30 mm",
+                    "image": "6. ล้อลูกปืน 30 mm.png"
                 },
                 {
-                    "id": "TW1411",
-                    "image": "Untitled-7.png"
+                    "id": "ล้อลูกปืนโครงเหล็ก",
+                    "image": "7.ล้อลูกปืนโครงเหล็ก.png"
                 }
             ],
             "pdf": true
