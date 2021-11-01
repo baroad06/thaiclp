@@ -541,35 +541,7 @@
             "name": "อุปกรณ์เฟอร์นิเจอร์",
             "url": "6-bed-closet-equipment",
             "image": [
-                {
-                    "id": "",
-                    "image": "IMG_6404.JPG"
-                },
-                {
-                    "id": "",
-                    "image": "IMG_6405.JPG"
-                },
-                {
-                    "id": "",
-                    "image": "IMG_6409.JPG"
-                },
-                {
-                    "id": "",
-                    "image": "IMG_6411.JPG"
-                },
-                {
-                    "id": "",
-                    "image": "IMG_6412.JPG"
-                },
-                {
-                    "id": "",
-                    "image": "IMG_6612.JPG"
-                },
-                {
-                    "id": "",
-                    "image": "IMG_6613.JPG"
-                }
-                ,
+                
                 {
                     "id": "ช่องระบายอากาศ",
                     "image": "1. ช่องระบายอากาศ.png"
