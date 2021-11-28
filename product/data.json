@@ -457,7 +457,8 @@
                     "image": "12จุกยาง.png"
                 }
             ],
-            "pdf": true
+            "pdf": true,
+            "pdfurl": "https://heyzine.com/flip-book/9813d4afa2.html"
         },
         {
             "name": "มือจับและปุ่มจับ",
@@ -492,7 +493,8 @@
                     "image": "07.png"
                 }
             ],
-            "pdf": true
+            "pdf": true,
+            "pdfurl": "https://heyzine.com/flip-book/13f1fbb3ac.html"
         },
         {
             "name": "ชุดขาปรับระดับ",
@@ -535,7 +537,8 @@
                     "image": "10.jpg"
                 }
             ],
-            "pdf": true
+            "pdf": true,
+            "pdfurl": "https://heyzine.com/flip-book/d922649ae1.html"
         },
         {
             "name": "อุปกรณ์เฟอร์นิเจอร์",
@@ -656,6 +659,7 @@
                 }
             ],
             "pdf": true,
+            "pdfurl": "https://heyzine.com/flip-book/e1f0d8c9f1.html",
             "subfolder": [
                 {
                     "name": "ขาเตียง-ตู้",
