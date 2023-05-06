@@ -294,7 +294,7 @@
         {
             "name": "ล้อลูกปืน",
             "url": "2-caster-bearings",
-            "pdfurl":"https://heyzine.com/flip-book/d9428ad49d.html",
+            "pdfurl":"https://heyzine.com/flip-book/5ba38fb84c.html",
             "image": [
                 {
                     "id": "ล้อลูกปืน 22mm. แกนย้ำ",
@@ -330,11 +330,19 @@
         {
             "name": "งานรีด/ยางขอบกระบะ",
             "url": "7-extrusion",
-            "pdfurl":"https://heyzine.com/flip-book/53289fe9d0.html",
+            "pdfurl":"https://heyzine.com/flip-book/72ae448080.html",
             "image": [
                 {
                     "id": "ยางซับในตู้เย็น",
                     "image": "no1.png"
+                },
+                {
+                    "id": "ยางค่าลบขอบตู้เย็น แกนยาว 20 mm",
+                    "image": "no14.png"
+                },
+                {
+                    "id": "ยางรูปตัวT ขอบตู้เย็นแกนยาว 20 mm",
+                    "image": "no15.png"
                 },
                 {
                     "id": "ยางรูปตัว Q ปีกกว้าง 58 mm. แกนยาว 20 mm",
@@ -474,6 +482,10 @@
                 },
                 {
                     "id": "",
+                    "image": "022.jpg"
+                },
+                {
+                    "id": "",
                     "image": "03.jpg"
                 },
                 {
@@ -482,7 +494,11 @@
                 },
                 {
                     "id": "",
-                    "image": "05.jpg"
+                    "image": "066.jpg"
+                },
+                {
+                    "id": "",
+                    "image": "0666.jpg"
                 },
                 {
                     "id": "",
@@ -490,7 +506,7 @@
                 },
                 {
                     "id": "",
-                    "image": "07.png"
+                    "image": "05.jpg"
                 }
             ],
             "pdf": true,
@@ -538,7 +554,7 @@
                 }
             ],
             "pdf": true,
-            "pdfurl": "https://heyzine.com/flip-book/d922649ae1.html"
+            "pdfurl": "https://heyzine.com/flip-book/4a354d7430.html"
         },
         {
             "name": "อุปกรณ์เฟอร์นิเจอร์",
@@ -659,7 +675,7 @@
                 }
             ],
             "pdf": true,
-            "pdfurl": "https://heyzine.com/flip-book/e1f0d8c9f1.html",
+            "pdfurl": "https://heyzine.com/flip-book/d7543043a9.html",
             "subfolder": [
                 {
                     "name": "ขาเตียง-ตู้",
