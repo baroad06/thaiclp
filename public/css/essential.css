@@ -29,8 +29,15 @@ img.img-article-top {
 }
 
 img.img-article-bottom {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   margin-top: 50px;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
