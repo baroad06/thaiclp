@@ -872,11 +872,19 @@
             "image": [
                 {
                     "id": "",
-                    "image": "made-by-order-1.jpg"
+                    "image": "custom01.png"
                 },
                 {
                     "id": "",
-                    "image": "made-by-order-2.jpg"
+                    "image": "custom02.png"
+                },
+                {
+                    "id": "",
+                    "image": "custom03.png"
+                },
+                {
+                    "id": "",
+                    "image": "custom04.png"
                 }
             ]
         }
