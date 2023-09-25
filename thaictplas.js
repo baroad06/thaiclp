@@ -14,14 +14,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.enable('trust proxy');
 var hostname = '';
 app.use(function (req, res, next) {
-  if (req.secure) {
     hostname = req.headers.host;
     console.log('hostname = ' + hostname);
     next();
-  } else {
-    console.log(req.headers.host);
-    res.redirect('https://' + req.headers.host + req.url);
-  }
 });
 app.set('view engine', 'ejs');
 
@@ -71,9 +66,4 @@ app.post('/send', (req, res) => {
   res.render('pages/contactus', { alert: 'Email has been sent' });
 });
 
-const options = {
-  cert: fs.readFileSync('./sslcert/certificate.crt'),
-  key: fs.readFileSync('./sslcert/private.key'),
-};
-
-https.createServer(options, app).listen(3000);
+http.createServer(app).listen(3000);
