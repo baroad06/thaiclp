@@ -76,5 +76,4 @@ const options = {
   key: fs.readFileSync('./sslcert/private.key'),
 };
 
-app.listen(8000);
-https.createServer(options, app).listen(4430);
+https.createServer(options, app).listen(443);
