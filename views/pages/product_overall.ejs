@@ -17,7 +17,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-2 h-4/6 md:h-96 mx-4 md:mx-40 my-10 justify-center">
         <% var subfolder = product.subfolder %>
         <% for (var i = 0; i<subfolder.length; i++) { %>
-          <a class="flex flex-col justify-center text-center text-lg leading-9 hover:no-underline md:text-3xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 hover:bg-gray-500 bg-cover bg-center " href="/product/<%= subfolder[i].url %>" style= "background-image: url('/images/catalog/<%= subfolder[i].url %>/cover.jpg')"><%= subfolder[i]["name"] %></a>
+          <a class="flex flex-col justify-center text-center text-lg leading-9 md:whitespace-pre-line hover:no-underline md:text-3xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 hover:bg-gray-500 bg-cover bg-center " href="/product/<%= subfolder[i].url %>" style= "background-image: url('/images/catalog/<%= subfolder[i].url %>/cover.jpg')"><%= subfolder[i]["name"] %></a>
         <% }%>
       </div>
     </div>
