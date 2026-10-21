@@ -30,3 +30,6 @@
 @media(max-width:1150px){.header-line-contact{width:50px;height:50px;border-radius:12px}}
 @media(max-width:640px){.header-line-contact{display:none}}
 .catalog-title-row>div{min-width:0}.catalog-title-row p:not(.eyebrow){max-width:820px;line-height:1.9}.page-breadcrumbs{padding-top:25px}
+.catalog-download{width:100%;min-height:64px;gap:14px;padding:17px 21px;margin:0 0 23px;background:var(--blue);border:1px solid var(--blue);border-radius:9px;color:#fff;font-size:16px;transition:background .18s}
+.catalog-download:hover{background:#174cae;border-color:#174cae}.catalog-download .catalog-download-label{flex:1;margin-left:0;text-align:center}.catalog-download>svg{width:21px;height:21px}
+@media(max-width:640px){.catalog-download{min-height:58px;padding:14px;font-size:13px;gap:10px}}

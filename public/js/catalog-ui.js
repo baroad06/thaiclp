@@ -18,6 +18,7 @@
     document.getElementById('result-count').textContent = matches.length + ' ' + (document.documentElement.lang === 'en' ? (matches.length === 1 ? 'product' : 'products') : catalog.dataset.resultLabel);
     document.getElementById('empty-results').hidden = matches.length > 0;
     clear.hidden = !input.value && !select.value;
+    catalog.querySelectorAll('[data-catalogue-category]').forEach(function (link) { link.hidden = link.dataset.catalogueCategory !== select.value; });
     links.forEach(function (link) {
       var active = link.dataset.categoryLink === select.value;
       link.classList.toggle('is-active', active);
