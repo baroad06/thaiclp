@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <%- include ../partials/includings.ejs %>
+    <%- include('../partials/includings.ejs') %>
     <title><%= productcat.name %></title>
 </head>
 <body>
-    <%- include ../partials/navbar.ejs %>
+    <%- include('../partials/navbar.ejs') %>
     <%- include('../partials/cover.ejs', {link: '/images/aboutus/cover.jpg'}) %>
     <div class="container">
         <div class="row">
@@ -108,7 +108,7 @@
             <div class="col-sm"></div>
         </div>
     </div>
-    <%- include ../partials/footer.ejs %>
+    <%- include('../partials/footer.ejs') %>
 </body>
 <script>
 var group = <%= countGroup %>;

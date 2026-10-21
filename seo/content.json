@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "/": {
+      "th": {"label":"หน้าแรก","title":"ชิ้นส่วนพลาสติกและอุปกรณ์เฟอร์นิเจอร์ | ไทยชลธาร พลาส","description":"ผู้ผลิตและจำหน่ายลูกล้อ จุกยาง มือจับ ยางขอบ และอุปกรณ์เฟอร์นิเจอร์ พร้อมรับผลิตชิ้นส่วนพลาสติกตามแบบ ทั้งงานฉีดและงานรีด ติดต่อไทยชลธาร พลาส","heading":"ชิ้นส่วนพลาสติกและอุปกรณ์เฟอร์นิเจอร์"},
+      "en": {"label":"Home","title":"Plastic Parts & Furniture Fittings | Thai Chonlatharn Plas","description":"Explore casters, rubber caps, handles, edge trims and furniture fittings from Thai Chonlatharn Plas. Contact our Bangkok team for custom plastic injection moulding and extrusion.","heading":"Plastic parts & furniture fittings"}
+    },
+    "/product": {
+      "th": {"label":"สินค้าทั้งหมด","title":"ลูกล้อ จุกยาง และอุปกรณ์เฟอร์นิเจอร์ | ไทยชลธาร พลาส","description":"เลือกดูชิ้นส่วนพลาสติกและอุปกรณ์เฟอร์นิเจอร์ 8 หมวด ค้นหาลูกล้อ ล้อลูกปืน จุกยาง มือจับ ขาปรับระดับ และยางขอบ พร้อมสอบถามรายละเอียดจากผู้ผลิต","heading":"ชิ้นส่วนที่ใช่ สำหรับงานของคุณ"},
+      "en": {"label":"All products","title":"Casters, Rubber Caps & Furniture Fittings | Thai Chonlatharn Plas","description":"Browse eight categories of plastic parts and furniture fittings: casters, drawer rollers, rubber caps, handles, adjustable feet and edge trims. Enquire directly with the manufacturer.","heading":"The right parts for your project"}
+    },
+    "/aboutus": {
+      "th": {"label":"เกี่ยวกับเรา","title":"เกี่ยวกับโรงงานผลิตชิ้นส่วนพลาสติก | ไทยชลธาร พลาส","description":"รู้จักบริษัท ไทยชลธาร พลาส จำกัด ผู้ผลิตชิ้นส่วนพลาสติกและอุปกรณ์เฟอร์นิเจอร์ในกรุงเทพฯ ให้บริการงานฉีด งานรีด ออกแบบและผลิตตามความต้องการ","heading":"เกี่ยวกับ ไทยชลธาร พลาส"},
+      "en": {"label":"About us","title":"About Our Plastic Manufacturing Company | Thai Chonlatharn Plas","description":"Learn about Thai Chonlatharn Plas, a Bangkok manufacturer of plastic components and furniture fittings, offering injection moulding, extrusion, design and custom production.","heading":"About Thai Chonlatharn Plas"}
+    },
+    "/contactus": {
+      "th": {"label":"ติดต่อเรา","title":"ติดต่อและขอราคาชิ้นส่วนพลาสติก | ไทยชลธาร พลาส","description":"ติดต่อไทยชลธาร พลาส เพื่อสอบถามสินค้าและงานผลิตพลาสติกตามแบบ โทร 02-451-1785 หรือ LINE @thaictp โรงงานอยู่บางขุนเทียน กรุงเทพฯ","heading":"ติดต่อและขอใบเสนอราคา"},
+      "en": {"label":"Contact us","title":"Contact Us & Request a Quote | Thai Chonlatharn Plas","description":"Contact Thai Chonlatharn Plas for plastic parts, furniture fittings and custom manufacturing enquiries. Call +66 2 451 1785 or LINE @thaictp. Located in Bang Khun Thian, Bangkok.","heading":"Contact us & request a quote"}
+    },
+    "/catalogue": {
+      "th": {"label":"แคตตาล็อก","title":"แคตตาล็อกชิ้นส่วนพลาสติกและเฟอร์นิเจอร์ | ไทยชลธาร พลาส","description":"เปิดแคตตาล็อกออนไลน์ของไทยชลธาร พลาส เลือกดูรูปแบบลูกล้อ ล้อลูกปืน มือจับ ขาปรับระดับ และอุปกรณ์เฟอร์นิเจอร์แยกตามหมวดสินค้า","heading":"แคตตาล็อกสินค้า"},
+      "en": {"label":"Catalogues","title":"Plastic Parts & Furniture Fittings Catalogues | Thai Chonlatharn Plas","description":"Explore Thai Chonlatharn Plas online catalogues for casters, drawer rollers, handles, adjustable feet and furniture fittings, organised by product category.","heading":"Product catalogues"}
+    }
+  },
+  "categories": {
+    "1-casters": {"th":"เลือกดูลูกล้อ 1.5 นิ้ว ลูกล้อ 2 นิ้ว ล้อบอล ล้อยาง ล้อเหล็ก และล้อไนลอน สำหรับงานเฟอร์นิเจอร์และอุตสาหกรรม สอบถามขนาดและการติดตั้งกับทีมงานไทยชลธาร พลาส","en":"Explore 1.5-inch and 2-inch casters, ball casters, rubber, steel and nylon wheels for furniture and industrial applications. Ask our team about sizes and mounting options."},
+    "2-caster-bearings": {"th":"เลือกล้อลิ้นชักลูกปืนขนาด 22–30 มม. ทั้งแบบแกนย้ำ แกนเกลียว และล้อลูกปืนโครงเหล็ก พร้อมรูปสินค้าเพื่อช่วยเลือกชิ้นส่วนให้เหมาะกับงาน","en":"Browse 22–30 mm drawer rollers with rivet or threaded stems, plus steel-frame bearing rollers. Compare product photos and contact our team for selection advice."},
+    "7-extrusion": {"th":"เลือกดูยางขอบประตูตู้ ยางขอบโต๊ะ ยางขอบกระจก ยางอัดกระจก และราวแขวน พร้อมรูปหน้าตัดและชื่อขนาดที่ระบุในสินค้า สอบถามงานรีดตามแบบกับทีมงาน","en":"Explore cabinet door seals, table edging, glass seals, glazing gaskets and hanging rails. Browse profile photos and listed sizes, or ask our team about custom extrusion work."},
+    "3-furniture": {"th":"เลือกดูจุกยางสวมในสี่เหลี่ยม จุกยางสวมในกลม จุกยางเจาะรู และจุกยางสวมนอก พร้อมรูปสินค้า สอบถามรูปทรงและขนาดที่เหมาะกับชิ้นงานของคุณ","en":"Browse square and round internal rubber plugs, plugs with holes and external rubber caps. View product photos and ask our team about shapes and sizes for your application."},
+    "4-grip-and-button-grip": {"th":"เลือกดูรูปแบบมือจับและปุ่มจับสำหรับตู้และเฟอร์นิเจอร์ พร้อมภาพสินค้าแต่ละแบบ ส่งรูปหรือชื่อแบบให้ทีมงานเพื่อสอบถามขนาด สี และรายละเอียดเพิ่มเติม","en":"Explore handles and knobs for cabinets and furniture. Browse each design and share a product photo or design name with our team to enquire about dimensions, colours and details."},
+    "5-rubber-button": {"th":"เลือกดูชุดขาปรับระดับและชิ้นส่วนที่เกี่ยวข้องสำหรับงานเฟอร์นิเจอร์ พร้อมภาพแต่ละแบบ สอบถามขนาดและรูปแบบที่ต้องการกับทีมงานไทยชลธาร พลาส","en":"Browse adjustable feet and related components for furniture applications. View each design and contact Thai Chonlatharn Plas for the sizes and configurations you need."},
+    "6-bed-closet-equipment": {"th":"เลือกดูอุปกรณ์เฟอร์นิเจอร์สำหรับตู้และเตียง เช่น ช่องระบายอากาศ กลอนตู้ ขาโซฟา ล้อเตียง รางเลื่อน และชิ้นส่วนยางขอบ สอบถามการใช้งานกับทีมงาน","en":"Explore cabinet and bed fittings including air vents, cabinet bolts, sofa legs, bed casters, drawer slides and edge trims. Ask our team for help selecting parts for your furniture."},
+    "8-made-by-order": {"th":"ดูตัวอย่างชิ้นส่วนพลาสติกสั่งทำพิเศษ รับออกแบบและผลิตตามความต้องการทั้งงานฉีดและงานรีด ส่งแบบ รูปตัวอย่าง และรายละเอียดเพื่อปรึกษาทีมงานไทยชลธาร พลาส","en":"View examples of custom-made plastic parts. Discuss your injection moulding or extrusion requirements with Thai Chonlatharn Plas by sharing drawings, sample photos and project details."}
+  }
+}

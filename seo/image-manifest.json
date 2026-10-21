@@ -1,0 +1,50 @@
+{
+  "1-casters": {
+    "src": "/images/optimized/categories/1-casters-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcset": "/images/optimized/categories/1-casters-480.webp 480w, /images/optimized/categories/1-casters-960.webp 960w, /images/optimized/categories/1-casters-1440.webp 1440w"
+  },
+  "2-caster-bearings": {
+    "src": "/images/optimized/categories/2-caster-bearings-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcset": "/images/optimized/categories/2-caster-bearings-480.webp 480w, /images/optimized/categories/2-caster-bearings-960.webp 960w, /images/optimized/categories/2-caster-bearings-1440.webp 1440w"
+  },
+  "3-furniture": {
+    "src": "/images/optimized/categories/3-furniture-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcset": "/images/optimized/categories/3-furniture-480.webp 480w, /images/optimized/categories/3-furniture-960.webp 960w, /images/optimized/categories/3-furniture-1440.webp 1440w"
+  },
+  "4-grip-and-button-grip": {
+    "src": "/images/optimized/categories/4-grip-and-button-grip-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcset": "/images/optimized/categories/4-grip-and-button-grip-480.webp 480w, /images/optimized/categories/4-grip-and-button-grip-960.webp 960w, /images/optimized/categories/4-grip-and-button-grip-1440.webp 1440w"
+  },
+  "5-rubber-button": {
+    "src": "/images/optimized/categories/5-rubber-button-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcset": "/images/optimized/categories/5-rubber-button-480.webp 480w, /images/optimized/categories/5-rubber-button-960.webp 960w"
+  },
+  "6-bed-closet-equipment": {
+    "src": "/images/optimized/categories/6-bed-closet-equipment-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcset": "/images/optimized/categories/6-bed-closet-equipment-480.webp 480w, /images/optimized/categories/6-bed-closet-equipment-960.webp 960w, /images/optimized/categories/6-bed-closet-equipment-1440.webp 1440w"
+  },
+  "7-extrusion": {
+    "src": "/images/optimized/categories/7-extrusion-960.webp",
+    "width": 960,
+    "height": 592,
+    "srcset": "/images/optimized/categories/7-extrusion-480.webp 480w, /images/optimized/categories/7-extrusion-960.webp 960w, /images/optimized/categories/7-extrusion-1440.webp 1440w"
+  },
+  "8-made-by-order": {
+    "src": "/images/optimized/categories/8-made-by-order-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcset": "/images/optimized/categories/8-made-by-order-480.webp 480w, /images/optimized/categories/8-made-by-order-960.webp 960w"
+  }
+}

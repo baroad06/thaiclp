@@ -19,9 +19,15 @@ app.use(function (req, res, next) {
     next();
 });
 app.set('view engine', 'ejs');
+const seo = require('./seo');
+seo.configuration();
+app.use(seo.middleware);
+app.get('/robots.txt', (req, res) => res.type('text/plain').send(seo.robots()));
+app.get('/sitemap.xml', (req, res) => res.type('application/xml').send(seo.sitemap()));
+app.use(require('./locales/i18n').middleware);
 
 app.get('/', function (req, res) {
-  res.render('pages/index.ejs');
+  res.render('pages/index.ejs', require('./product/catalog-model').catalogView('', '', res.locals.lang));
 });
 app.get('/aboutus', function (req, res) {
   res.render('pages/aboutus.ejs');
@@ -66,4 +72,4 @@ app.post('/send', (req, res) => {
   res.render('pages/contactus', { alert: 'Email has been sent' });
 });
 
-http.createServer(app).listen(3000);
+http.createServer(app).listen(process.env.PORT || 3000);

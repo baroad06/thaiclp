@@ -1,0 +1,149 @@
+{
+  "1-casters": {
+    "label": "Casters",
+    "products": {
+      "no1.jpg": "1.5-inch caster",
+      "no2.jpg": "2-inch caster",
+      "no3.jpg": "Ball caster",
+      "no4.jpg": "Rigid plate caster",
+      "no5.png": "60 mm flat-side caster",
+      "no6.jpg": "Rubber caster",
+      "no7.png": "Steel caster",
+      "no8.png": "Pressed-steel wheel caster",
+      "no9.jpg": "White nylon caster",
+      "ล้อเหล็ก ขนาดใหญ่ (ใช้ในอุตสาหกรรม).png": "Large industrial steel caster",
+      "ล้อถ้วยน้ำตาล (นิยมใช้กับตู้-เตียง).png": "Brown cup caster for cabinets & beds",
+      "ล้อน้ำตาล (นิยมใช้กับตู้-เตียง).png": "Brown caster for cabinets & beds",
+      "ล้อยางกระทะ ขนาดใหญ่ (ใช้ในอุตสาหกรรม).png": "Large industrial rubber wheel caster"
+    }
+  },
+  "2-caster-bearings": {
+    "label": "Drawer rollers & bearings",
+    "products": {
+      "1.ล้อลูกปืน 22mm. แกนย้ำ.png": "22 mm drawer roller, rivet stem",
+      "2. ล้อลูกปืน 24 mm. แกนเกลียว.png": "24 mm drawer roller, threaded stem",
+      "3. ล้อลูกปืน 24 mm. แกนย้ำ.png": "24 mm drawer roller, rivet stem",
+      "4. ล้อลูกปืน 26 mm. แกนเกลียว.png": "26 mm drawer roller, threaded stem",
+      "5.ล้อลูกปืน 26 mm. แกนย้ำ.png": "26 mm drawer roller, rivet stem",
+      "6. ล้อลูกปืน 30 mm.png": "30 mm drawer roller",
+      "7.ล้อลูกปืนโครงเหล็ก.png": "Steel-frame bearing roller"
+    }
+  },
+  "7-extrusion": {
+    "label": "Extrusions & edge trims",
+    "products": {
+      "no1.png": "Refrigerator inner seal",
+      "no14.png": "Cold-room door seal, 20 mm groove",
+      "no15.png": "T-profile cabinet door seal, 20 mm groove",
+      "no2.png": "Q-profile cabinet door seal, 20 mm groove",
+      "no3.png": "Q-profile ten-door cabinet seal, 28 mm groove",
+      "no4.png": "Q-profile ten-door cabinet seal, 32 mm groove",
+      "no5.png": "Q-profile ten-door cabinet seal, neon-green edge, 27 mm groove, 60 mm flange",
+      "no6.png": "T-profile cabinet door seal, 20 mm groove, 50 mm flange",
+      "no7.png": "T-profile cabinet door seal, 22 mm groove, 50 mm flange",
+      "no10.png": "T-profile cabinet door seal, 20 mm groove, 62 mm flange",
+      "no9.png": "T-profile cabinet door seal, neon-green edge, 28 mm groove, 60 mm flange",
+      "no12.png": "T-profile cabinet door seal, 28 mm groove, 62 mm flange",
+      "no11.png": "T-profile cabinet door seal, 25 mm groove, 62 mm flange",
+      "no8.png": "T-profile cabinet door seal, 32 mm groove, 59 mm flange",
+      "no13.png": "T-profile cabinet door seal, 35 mm groove, 62 mm flange",
+      "25. ยางขอบกระจก.png": "Glass edge seal",
+      "24. ยางอัดกระจก.png": "Glazing gasket",
+      "3.1 ยางขอบ.png": "Rubber edge trim",
+      "1 ราวแขวนทรงกลม.png": "Round hanging rail",
+      "2 ราวแขวนทรงวงรี.png": "Oval hanging rail",
+      "3 พลาสติกขอบโต๊ะ.png": "Plastic table edging",
+      "4.5 ยางขอบโต๊ะ.png": "Rubber table edging",
+      "23. ยางขอบโต๊ะ.png": "Rubber table edging",
+      "23.1 ยางขอบโต๊ะงุ้มคู่.png": "Double-lip table edging"
+    }
+  },
+  "3-furniture": {
+    "label": "Rubber plugs & caps",
+    "products": {
+      "1จุกยาง.png": "Square internal rubber plug",
+      "2จุกยาง.png": "Square internal rubber plug",
+      "3จุกยาง.png": "Square internal rubber plug",
+      "5.1จุกยาง.png": "Round internal rubber plug",
+      "6.1จุกยาง.png": "Round internal rubber plug",
+      "6.2จุกยาง.png": "Banquet furniture leg end plug",
+      "6จุกยาง.png": "Round internal rubber plug",
+      "10จุกยาง.png": "Round internal rubber plug",
+      "11จุกยาง.png": "Round internal rubber plug with hole",
+      "12.1จุกยาง.png": "Round internal rubber plug",
+      "12จุกยาง.png": "External rubber cap"
+    }
+  },
+  "4-grip-and-button-grip": {
+    "label": "Handles & knobs",
+    "products": {
+      "01.jpg": "Handles & knobs · Design 01",
+      "02.jpg": "Handles & knobs · Design 02",
+      "022.jpg": "Handles & knobs · Design 03",
+      "03.jpg": "Handles & knobs · Design 04",
+      "04.jpg": "Handles & knobs · Design 05",
+      "066.jpg": "Handles & knobs · Design 06",
+      "0666.jpg": "Handles & knobs · Design 07",
+      "06.png": "Handles & knobs · Design 08",
+      "05.jpg": "Handles & knobs · Design 09"
+    }
+  },
+  "5-rubber-button": {
+    "label": "Adjustable feet",
+    "products": {
+      "1.jpg": "Adjustable feet · Design 01",
+      "2.jpg": "Adjustable feet · Design 02",
+      "3.jpg": "Adjustable feet · Design 03",
+      "4.jpg": "Adjustable feet · Design 04",
+      "5.jpg": "Adjustable feet · Design 05",
+      "6.jpg": "Adjustable feet · Design 06",
+      "7.jpg": "Adjustable feet · Design 07",
+      "9.jpg": "Adjustable feet · Design 08",
+      "10.jpg": "Adjustable feet · Design 09"
+    }
+  },
+  "6-bed-closet-equipment": {
+    "label": "Furniture fittings",
+    "products": {
+      "1. ช่องระบายอากาศ.png": "Air vent",
+      "2. กระดุมช่องลม ชุบทองเหลือง.png": "Brass-plated vent button",
+      "3. T-Nut.png": "T-Nut",
+      "4. อะไหล่เหล็ก.png": "Steel spare part",
+      "5. น็อตสีทองเหลือง.png": "Brass-coloured nut",
+      "6. น็อตสีเงิน.png": "Silver-coloured nut",
+      "7. ชิ้นส่วนพลาสติก.png": "Plastic component",
+      "7.5 กลอนตู้.png": "Cabinet bolt",
+      "8. ที่รองตู้ 400-500 mm..png": "Cabinet support, 400–500 mm",
+      "9. แผ่นยึดพลาสติก.png": "Plastic mounting plate",
+      "10. ตะขอสับ.png": "Latch hook",
+      "11. รางเหล็ก.png": "Steel rail",
+      "12. แผ่นเหล็ก.png": "Steel caster mounting plate with welded nut",
+      "13. ขาโซฟา.png": "Sofa / bed leg",
+      "ล้อเตียง แบบล็อคได้.png": "Locking bed caster",
+      "14. ขาโซฟาเหล็ก.png": "Steel sofa leg",
+      "15. ขาโซฟาเหล็ก.png": "Steel sofa leg",
+      "16.ขาไม้เฟอร์นิเจอร์.png": "Wooden furniture leg",
+      "16. พลาสติกขอบโต๊ะ.png": "Plastic table edging",
+      "17 พลาสติกขอบโต๊ะ.png": "Plastic table edging",
+      "18 รางแขวนทรงกลม.png": "Round hanging rail",
+      "19 ราวแขวนทรงวงรี.png": "Oval hanging rail",
+      "20. รางเลื่อน_รางสไลด์.png": "Drawer slide / sliding rail",
+      "21. ขอบปิดแผ่นหลัง.png": "Back-panel edge trim",
+      "22. ยางขอบ.png": "Rubber edge trim",
+      "22.2 ยางขอบโต๊ะ.png": "Rubber table edging",
+      "23. ยางขอบโต๊ะ.png": "Rubber table edging",
+      "23.1 ยางขอบโต๊ะงุ้ม.png": "Curved-lip table edging",
+      "24. ยางอัดกระจก.png": "Glazing gasket",
+      "25. ยางตัว U เล็ก.png": "Small U-channel rubber trim"
+    }
+  },
+  "8-made-by-order": {
+    "label": "Custom-made parts",
+    "products": {
+      "custom01.png": "Custom-made parts · Design 01",
+      "custom02.png": "Custom-made parts · Design 02",
+      "custom03.png": "Custom-made parts · Design 03",
+      "custom04.png": "Custom-made parts · Design 04"
+    }
+  }
+}

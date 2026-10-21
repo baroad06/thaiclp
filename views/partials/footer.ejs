@@ -1,34 +1,18 @@
-<footer class="footer-container" style="background-color: #eeeeee; color: black;">
-  <div class="container" style="padding: 2em;">
-    <div class="row">
-      <!-- Contact Information Section -->
-      <div class="col-lg-8">
-        <p>
-          Tel: (+66)2-451-1785, (+66)2 117 2168, (+66)2-453-6450, (+66)81-636-2175, (+66)83-914-1469<br />
-          FAX: (+66)2-453-6451<br />
-          E-mail: <a href="mailto:boonchuay@thaictp.com" class="text-blue-600">boonchuay@thaictp.com</a><br />
-          Line: <a href="https://lin.ee/wY663tN" class="text-blue-600">https://lin.ee/wY663tN</a>
-        </p>
-      </div>
-      
-      <!-- Accreditation Section -->
-      <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
-        <div style="display: flex; gap: 20px;">
-          <img src="/images/iso/accreditations.png" alt="SCC Accredited CB-MS" style="width: 80px; height: auto; max-width: 100%;" />
-          <img src="/images/iso/images.png" alt="QFS Management Systems" style="width: 80px; height: auto; max-width: 100%;" />
-          <img src="/images/iso/iso.png" alt="QFS Management Systems" style="width: 80px; height: auto; max-width: 100%;" />
-        </div>
-      </div>
-    </div>
-    
-    <div class="row" style="margin-top: 1em;">
-      <!-- Copyright Section -->
-      <div class="col-lg-12 text-center">
-        <p>
-          © สงวนลิขสิทธิ์ 2018<br />
-          บริษัท ไทยชลธารพลาส จำกัด
-        </p>
-      </div>
-    </div>
+<footer class="site-footer"><div class="site-container">
+  <div class="footer-grid">
+    <div class="footer-about"><a class="brand footer-brand" href="<%= prefix %>/"><img src="/images/logo.png" alt="TCP" width="76" height="48"><span><strong><%= t("ไทยชลธาร พลาส") %></strong><small>THAI CHONLATHARN PLAS</small></span></a><p><%= t("ชิ้นส่วนคุณภาพ เพื่อทุกงานของคุณ") %><br><%= t("ผู้ผลิตงานฉีดและงานรีดพลาสติก") %><br><%= t("พร้อมให้คำปรึกษาและรับผลิตตามแบบ") %></p></div>
+    <div><h2><%= t("สำรวจเว็บไซต์") %></h2><a href="<%= prefix %>/product"><%= t("สินค้าทั้งหมด") %></a><a href="<%= prefix %>/aboutus"><%= t("เกี่ยวกับเรา") %></a><a href="<%= prefix %>/contactus"><%= t("ติดต่อและขอใบเสนอราคา") %></a></div>
+    <div><h2><%= t("พูดคุยกับทีมงาน") %></h2><a href="tel:024511785">02-451-1785</a><a href="tel:021172168">02-117-2168</a><a href="mailto:boonchuay@thaictp.com">boonchuay@thaictp.com</a><a class="footer-line" href="https://lin.ee/ldLdQC0" target="_blank" rel="noopener noreferrer"><span class="status-dot"></span>LINE: @thaictp ↗</a></div>
+    <div><h2><%= t("เยี่ยมชมเรา") %></h2><p><%= t("13 ซอยเทียนทะเล 26 แยก 2") %><br><%= t("แขวงท่าข้าม เขตบางขุนเทียน") %><br><%= t("กรุงเทพมหานคร 10150") %></p><a href="<%= prefix %>/contactus"><%= t("ดูข้อมูลการเดินทาง ↗") %></a></div>
   </div>
-</footer>
+  <section class="footer-certifications" aria-label="<%= t('ตรามาตรฐานและใบรับรอง') %>">
+    <div><h2><%= t('ตรามาตรฐานและใบรับรอง') %></h2><a href="<%= prefix %>/aboutus"><%= t('ดูข้อมูลใบรับรอง') %> ↗</a></div>
+    <div class="certification-badges">
+      <a href="<%= prefix %>/aboutus" aria-label="<%= t('ดูข้อมูลใบรับรอง') %>: ISO 9001:2015"><img src="/images/iso/iso.png" alt="ISO 9001:2015" width="88" height="86" loading="lazy"></a>
+      <a href="<%= prefix %>/aboutus" aria-label="<%= t('ดูข้อมูลใบรับรอง') %>: QFS"><img src="/images/iso/images.png" alt="QFS Management Systems" width="88" height="88" loading="lazy"></a>
+      <a href="<%= prefix %>/aboutus" aria-label="<%= t('ดูข้อมูลใบรับรอง') %>: SCC"><img src="/images/iso/accreditations.png" alt="SCC Accreditation" width="88" height="88" loading="lazy"></a>
+    </div>
+  </section>
+  <div class="footer-bottom"><span>© <%= new Date().getFullYear() %> Thai Chonlatharn Plas Co., Ltd.</span><span>Plastic Injection & Extrusion</span></div>
+</div></footer>
+<script src="/js/site.js" defer></script>

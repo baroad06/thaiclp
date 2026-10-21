@@ -1,26 +1,2 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/essential.css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <%- include ../partials/includings.ejs %>
-    <title>ผลิตภัณฑ์ของไทยชลธารพลาส</title>
-  </head>
-  <body>
-    <%- include ../partials/navbar.ejs %> <%- include('../partials/cover.ejs',
-    {link: '/images/product/cover.jpg'}) %>
-    <div class="container flex flex-col"></div>
-    <div class="text-4xl md:text-5xl text-center m-14 md:m-20">ผลิตภัณฑ์ของ<br/>ไทยชลธารพลาส</div>
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-2 h-4/6 md:h-96 mx-4 md:mx-40 my-10 justify-center">
-        <% var subfolder = product.subfolder %>
-        <% for (var i = 0; i<subfolder.length; i++) { %>
-          <a class="flex flex-col justify-center text-center text-lg leading-9 md:whitespace-pre-line hover:no-underline md:text-3xl text-white rounded-xl md:rounded-3xl bg-blend-multiply bg-gray-400 hover:bg-gray-500 bg-cover bg-center " href="/product/<%= subfolder[i].url %>" style= "background-image: url('/images/catalog/<%= subfolder[i].url %>/cover.jpg')"><%= subfolder[i]["name"] %></a>
-        <% }%>
-      </div>
-    </div>
-    <%- include ../partials/footer.ejs %>
-  </body>
-</html>
+<html lang="<%= lang %>"><head><%- include('../partials/includings.ejs') %></head><body class="catalog-site" data-page="products"><%- include('../partials/navbar.ejs') %><main id="main-content"><%- include('../partials/catalog.ejs') %></main><%- include('../partials/footer.ejs') %></body></html>

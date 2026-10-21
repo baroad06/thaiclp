@@ -1,44 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-light sticky top-0 z-50">
-  <a class="navbar-brand" href="/">
-    <img src="/images/logo.png" alt="" style="max-width: 100px" />
-  </a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    area-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div id="navbarSupportedContent" class="collapse navbar-collapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item"><a class="nav-link" href="/">หน้าแรก (Home)</a></li>
-      <li class="nav-item">
-        <a class="nav-link" href="/aboutus">เกี่ยวกับเรา (About Us)</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/product">ผลิตภัณฑ์ของเรา (Products)</a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="/catalogue">แค็ตตาล็อก (Catalogue)</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="/contactus">ติดต่อเรา (Contact Us)</a>
-      </li>
-    </ul>
-    <a
-      class="flex flex-col justify-center right-0"
-      href="https://lin.ee/ldLdQC0"
-      target="_blank"
-    >
-      <img
-        class="cursor-pointer max-h-9 max-w-9"
-        src="/images/others/LINE_logo.svg"
-        alt=""
-      />
-    </a>
+<a class="skip-link" href="#main-content"><%= t("ข้ามไปเนื้อหาหลัก") %></a>
+<div class="utility-bar"><div class="site-container utility-inner"><span><%= t("ผู้ผลิตชิ้นส่วนพลาสติกและอุปกรณ์เฟอร์นิเจอร์") %></span><a href="tel:024511785"><%- include('icon.ejs', { name: 'phone' }) %>02-451-1785</a></div></div>
+<header class="site-header">
+  <div class="site-container header-inner">
+    <a href="<%= prefix %>/" class="brand" aria-label="<%= t("ไทยชลธาร พลาส หน้าแรก") %>"><img src="/images/logo.png" alt="TCP" width="76" height="48"><span><strong><%= t("ไทยชลธาร พลาส") %></strong><small>THAI CHONLATHARN PLAS</small></span></a>
+    <nav class="desktop-nav" aria-label="<%= t("เมนูหลัก") %>"><a href="<%= prefix %>/" data-nav="home"><%= t("หน้าแรก") %></a><a href="<%= prefix %>/product" data-nav="products"><%= t("สินค้าทั้งหมด") %></a><a href="<%= prefix %>/aboutus" data-nav="about"><%= t("เกี่ยวกับเรา") %></a><a href="<%= prefix %>/contactus" data-nav="contact"><%= t("ติดต่อเรา") %></a></nav>
+    <div class="header-actions"><nav class="language-switch" aria-label="<%= t('ภาษา') %>"><a href="<%= languageUrl('th') %>" data-language="th" lang="th" hreflang="th" <%- lang === 'th' ? 'aria-current="true"' : '' %>>TH</a><span aria-hidden="true">/</span><a href="<%= languageUrl('en') %>" data-language="en" lang="en" hreflang="en" <%- lang === 'en' ? 'aria-current="true"' : '' %>>EN</a></nav><a href="https://lin.ee/ldLdQC0" target="_blank" rel="noopener noreferrer" class="header-line-contact" aria-label="<%= t('สอบถามผ่าน LINE') %>" title="<%= t('สอบถามผ่าน LINE') %>"><img src="/images/others/LINE_Brand_icon.png" alt="LINE" width="56" height="56"></a><button class="icon-button menu-toggle" id="mobile-menu-button" aria-label="<%= t("เปิดเมนู") %>" data-open-label="<%= t('เปิดเมนู') %>" data-close-label="<%= t('ปิดเมนู') %>" aria-expanded="false" aria-controls="mobile-menu"><%- include('icon.ejs', { name: 'menu' }) %></button></div>
   </div>
-</nav>
+  <nav class="mobile-nav" id="mobile-menu" aria-label="<%= t("เมนูมือถือ") %>" hidden><a href="<%= prefix %>/" data-nav="home"><%= t("หน้าแรก") %></a><a href="<%= prefix %>/product" data-nav="products"><%= t("สินค้าทั้งหมด") %></a><a href="<%= prefix %>/aboutus" data-nav="about"><%= t("เกี่ยวกับเรา") %></a><a href="<%= prefix %>/contactus" data-nav="contact"><%= t("ติดต่อเรา") %></a></nav>
+</header>
