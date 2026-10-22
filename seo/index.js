@@ -63,7 +63,7 @@ function createSeo(originalUrl, options = configuration()) {
     jsonLd: JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c'),
   };
 }
-function canonicalPaths() { return Object.keys(content.pages).concat(catalog.categories.map(item => '/product/' + item.url)); }
+function canonicalPaths() { return Object.keys(content.pages).filter(path => path !== '/product').concat(catalog.categories.map(item => '/product/' + item.url)); }
 function escapeXml(value) { return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;'); }
 function sitemap(config = configuration()) {
   const entries = canonicalPaths().flatMap(path => ['th', 'en'].map(lang => '<url><loc>' + escapeXml(localeUrl(config.siteUrl, path, lang)) + '</loc></url>'));
@@ -75,10 +75,10 @@ function robots(config = configuration()) {
 function redirectTarget(originalUrl) {
   const state = resolve(originalUrl);
   const rawPath = state.url.pathname.replace(/^\/en(?=\/|$)/, '').replace(/\/$/, '') || '/';
-  if (rawPath === '/product' && state.category && !state.search) {
+  if (rawPath === '/product' && !state.search) {
     const params = new URLSearchParams(state.url.search);
     params.delete('category'); params.delete('q');
-    return (state.lang === 'en' ? '/en' : '') + '/product/' + state.category.url + (params.size ? '?' + params.toString() : '');
+    return (state.lang === 'en' ? '/en' : '') + '/product/' + (state.category || catalog.categories[0]).url + (params.size ? '?' + params.toString() : '');
   }
   // Consolidate trailing slashes; English home deliberately uses /en/.
   if (state.url.pathname === '/en') return '/en/' + state.url.search;

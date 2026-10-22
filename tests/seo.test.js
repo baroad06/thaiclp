@@ -49,10 +49,10 @@ test('preview remains noindex while production indexing is configurable', () => 
   assert.equal(createSeo('/', { ...production, indexable: false }).robots, 'noindex,follow');
   assert.equal(robots({ ...production, indexable: false }), 'User-agent: *\nAllow: /\n');
 });
-test('sitemap lists the 26 canonical bilingual pages, with no query or submission URLs', () => {
+test('sitemap lists the 24 canonical bilingual pages, with no query or submission URLs', () => {
   const urls = [...sitemap(production).matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
-  assert.equal(urls.length, 26);
-  assert.equal(new Set(urls).size, 26);
+  assert.equal(urls.length, 24);
+  assert.equal(new Set(urls).size, 24);
   assert.ok(urls.includes('https://thaictp.com/en/product/3-furniture'));
   assert.ok(urls.every(url => url.startsWith('https://thaictp.com/') && !url.includes('?') && !url.includes('/send')));
   assert.ok(robots(production).includes('Sitemap: https://thaictp.com/sitemap.xml'));
@@ -60,7 +60,10 @@ test('sitemap lists the 26 canonical bilingual pages, with no query or submissio
 test('filter and trailing slash redirects keep the language and necessary query', () => {
   assert.equal(redirectTarget('/en/product?category=1-casters&utm_source=demo'), '/en/product/1-casters?utm_source=demo');
   assert.equal(redirectTarget('/product?category=1-casters&q=wheel'), null);
-  assert.equal(redirectTarget('/product?category=invalid'), null);
+  assert.equal(redirectTarget('/product?category=invalid'), '/product/1-casters');
+  assert.equal(redirectTarget('/product'), '/product/1-casters');
+  assert.equal(redirectTarget('/en/product'), '/en/product/1-casters');
+  assert.equal(redirectTarget('/product?q=wheel'), null);
   assert.equal(redirectTarget('/en'), '/en/');
   assert.equal(redirectTarget('/en/contactus/?utm_source=demo'), '/en/contactus?utm_source=demo');
 });

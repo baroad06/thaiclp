@@ -17,7 +17,7 @@
     cards.forEach(function (card) { card.hidden = !visible.has(card); });
     document.getElementById('result-count').textContent = matches.length + ' ' + (document.documentElement.lang === 'en' ? (matches.length === 1 ? 'product' : 'products') : catalog.dataset.resultLabel);
     document.getElementById('empty-results').hidden = matches.length > 0;
-    clear.hidden = !input.value && !select.value;
+    clear.hidden = !input.value && (isCategoryPage || !select.value);
     catalog.querySelectorAll('[data-catalogue-category]').forEach(function (link) { link.hidden = link.dataset.catalogueCategory !== select.value; });
     links.forEach(function (link) {
       var active = link.dataset.categoryLink === select.value;
@@ -51,7 +51,7 @@
     });
   });
   clear.addEventListener('click', function () {
-    if (isCategoryPage) return location.assign(prefix + '/product');
+    if (isCategoryPage) { input.value = ''; update(true); input.focus(); return; }
     input.value = ''; select.value = ''; update(true); input.focus();
   });
   window.addEventListener('pageshow', function () { if (isCategoryPage) select.value = initialCategory; update(false); });
