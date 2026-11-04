@@ -2,7 +2,10 @@ const express = require('express');
 const router = express.Router();
 const catalog = require('./catalog-model');
 router.get('/', function (req, res) {
-  res.render('pages/product_overall.ejs', catalog.catalogView(req.query.q, req.query.category, res.locals.lang));
+  var view = catalog.catalogView(req.query.q, req.query.category, res.locals.lang);
+  // With no search, show every category first and let the visitor pick one.
+  if (!view.query.trim()) return res.render('pages/product_categories.ejs', view);
+  res.render('pages/product_overall.ejs', view);
 });
 router.get('/:product_cat', function (req, res, next) {
   if (!catalog.categories.some(function (item) { return item.url === req.params.product_cat; })) return next();

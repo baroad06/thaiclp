@@ -7,6 +7,7 @@ const defaults = require('../locales/i18n').viewLocals('/');
 for (const [page, data] of [
   ['index', catalog.catalogView()],
   ['product_overall', catalog.catalogView('ล้อ 1.5')],
+  ['product_categories', catalog.catalogView()],
   ['product_by_cats', catalog.catalogView('', '3-furniture')],
   ['aboutus', {}],
   ['contactus', {}],
@@ -19,4 +20,9 @@ test('category destinations preserve the search query without JavaScript', async
   const html = await new Promise((resolve, reject) => ejs.renderFile(path.join(__dirname, '../views/pages/product_by_cats.ejs'), Object.assign({}, defaults, catalog.catalogView('นิ้ว', '1-casters')), (err, html) => err ? reject(err) : resolve(html)));
   const destination = html.match(/href="([^"]+)" data-category-link="2-caster-bearings"/)[1];
   assert.equal(new URL(destination, 'http://localhost').searchParams.get('q'), 'นิ้ว');
+});
+test('the all-products page lists every category instead of a single category', async () => {
+  const html = await new Promise((resolve, reject) => ejs.renderFile(path.join(__dirname, '../views/pages/product_categories.ejs'), Object.assign({}, defaults, catalog.catalogView()), (err, html) => err ? reject(err) : resolve(html)));
+  for (const category of catalog.categories) assert.ok(html.includes('href="/product/' + category.url + '"'), category.url);
+  assert.ok(!html.includes('data-product'));
 });

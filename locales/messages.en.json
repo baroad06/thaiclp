@@ -94,6 +94,7 @@
   "ที่อยู่ (Location)": "Location",
   "ช่องทางการติดต่อ (Contact)": "Contact details",
   "บริษัท ไทยชลธาร พลาส จำกัด 13 ซอยเทียนทะเล 26 แยก 2 ถนนบางขุนเทียน-ชายทะเล แขวงท่าข้าม เขตบางขุนเทียน กทม. 10150": "Thai Chonlatharn Plas Co., Ltd., 13 Soi Thian Thale 26 Yaek 2, Bang Khun Thian–Chai Thale Road, Tha Kham, Bang Khun Thian, Bangkok 10150, Thailand",
+  "13 ซอยเทียนทะเล 26 แยก 2 ถนนบางขุนเทียน-ชายทะเล แขวงท่าข้าม เขตบางขุนเทียน กทม. 10150": "13 Soi Thian Thale 26 Yaek 2, Bang Khun Thian–Chai Thale Road, Tha Kham, Bang Khun Thian, Bangkok 10150, Thailand",
   "ผลิตภัณฑ์ของไทยชลธาร พลาส": "Thai Chonlatharn Plas products",
   "แค็ตตาล็อก": "Catalogue",
   "บริษัท ไทยชลธาร พลาส จำกัด ประกอบธุรกิจผลิตชิ้นส่วนอุปกรณ์ต่าง ๆ เช่นอุปกรณ์เฟอร์นิเจอร์ ของใช้ในครัวเรือน และอื่น ๆ ก่อตั้งขึ้นเมื่อวันที่ 17 มิถุนายน 2553 เป็นผู้รับผลิต ออกแบบ รวมถึงให้คำปรึกษาดำเนินกิจการด้วยความเชี่ยวชาญเรามุ่งมั่นที่จะพัฒนาคุณภาพสินค้าเพื่อรองรับความต้องการของลูกค้าสูงสุดจนได้รับความไว้วางใจจากลูกค้าอย่างดีเสมอมา": "Established on 17 June 2010, Thai Chonlatharn Plas Co., Ltd. manufactures components for furniture, household goods and other applications. We provide manufacturing, design and consulting services, drawing on our expertise to develop quality products that meet our customers’ needs and earn their continued trust.",
@@ -125,5 +126,6 @@
   "สไลด์ถัดไป": "Next slide",
   "ตรามาตรฐานและใบรับรอง": "Standards & certificates",
   "ดูข้อมูลใบรับรอง": "View certificate information",
-  "คลิกที่นี่เพื่อดู Catalogue": "Click here to view the catalogue"
+  "คลิกที่นี่เพื่อดู Catalogue": "Click here to view the catalogue",
+  "เลือกหมวดสินค้าที่ต้องการดู หรือค้นหาจากชื่อสินค้า": "Choose a category to browse, or search by product name."
 }
