@@ -133,6 +133,12 @@
 .page-cover-content {position: relative; z-index: 1;}
 .page-cover-content h1 {line-height: 1.3; overflow-wrap: anywhere;}
 .page-cover-content p {line-height: 1.8;}
+/* Keep the company name on one line once the banner is wide enough for it. */
+@media (min-width: 768px) {
+  .page-cover-name {white-space: nowrap;}
+}
+/* Move a phrase to the next line as a whole; it only breaks inside when wider than the line. */
+.keep-together {display: inline-block;}
 @media (max-width: 640px) {
   .page-cover {min-height: 380px; padding-block: 48px;}
   .page-cover-content h1 {font-size: 32px;}

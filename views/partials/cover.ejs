@@ -9,7 +9,11 @@
   <div class="page-cover-content site-container">
     <div class="max-w-2xl text-white">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-up">
-        <%= seo.heading %>
+        <% if (locals.headingName) { %>
+          <%= locals.headingLead %><br><span class="page-cover-name"><%= locals.headingName %></span>
+        <% } else { %>
+          <%= seo.heading %>
+        <% } %>
       </h1>
       <p class="text-lg md:text-xl text-blue-100 mb-8 opacity-90">
         <%= t("งานฉีดและงานรีดพลาสติก โดยทีมงานที่มีประสบการณ์กว่า 30 ปี") %>

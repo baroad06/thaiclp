@@ -6,13 +6,13 @@
 </head>
 <body class="bg-slate-50 text-slate-900 font-kanit" data-page="about">
   <%- include('../partials/navbar.ejs') %>
-  <%- include('../partials/cover.ejs', {link: '/images/aboutus/cover.jpg' }) %>
+  <%- include('../partials/cover.ejs', {link: '/images/aboutus/cover.jpg', headingLead: t("เกี่ยวกับ"), headingName: t("ไทยชลธาร พลาส") }) %>
 
   <main id="main-content" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
     <%- include('../partials/breadcrumbs.ejs') %>
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-5xl font-bold text-slate-800 mb-6">
-        <%= t("เกี่ยวกับ ไทยชลธาร พลาส") %>
+        <%= t("เกี่ยวกับ") %> <span class="keep-together"><%= t("ไทยชลธาร พลาส") %></span>
       </h2>
       <div class="w-24 h-1.5 bg-blue-600 mx-auto rounded-full"></div>
     </div>
